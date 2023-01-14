@@ -1,0 +1,80 @@
+h1 {
+    height: 30px;
+    max-width: 100vw;
+    background: red;
+    margin: 0 90px;
+    padding: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+    box-shadow: 2px 4px 8px grey;
+}
+
+h2 {
+    height: 40px;
+    max-width: 100vw;
+    background: rgb(90, 74, 74);
+    margin: 0 70px;
+    padding: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: right;
+    box-shadow: 2px 4px 12px 8px #f500f5 inset;
+    color: #fff;
+}
+
+h3 {
+    height: 40px;
+    max-width: 100vw;
+    margin: 0 50px;
+    background: #fc5400;
+    padding: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+    box-shadow: 2px 4px 12px #00cc11;
+
+}
+
+h4 {
+    height: 40px;
+    max-width: 100vw;
+    margin: 0 30px;
+    background: rgb(108, 80, 250);
+    padding: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: right;
+    box-shadow: 2px 4px 12px #045a9c;
+
+
+}
+
+h5 {
+    height: 40px;
+    max-width: 100vw;
+    margin: 0 10px;
+    background: rgb(191, 231, 81);
+    padding: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+    box-shadow: 2px 4px 12px blueviolet;
+
+}
+
+.para {
+    background: red;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 30px;
+    color: #fff;
+    text-shadow: 30px 10px 5px #280659;
+}
+
+#para {
+    color: red;
+    background: #fff;
+    box-shadow: 4px 8px 12px royalblue;
+    padding: 30px;
+}

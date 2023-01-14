@@ -1,0 +1,15 @@
+.infohtml{
+    background: lightgrey;
+    padding: 30px;
+    box-shadow: 8px 8px 38px 9px #ff14c0 inset;
+}
+h1{
+    color: red;
+}
+
+h3{
+    color: green;
+}
+h5{
+    color: brown;
+}
