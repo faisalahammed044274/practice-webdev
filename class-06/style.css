@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 h1 {
@@ -15,7 +16,7 @@ h1 {
     box-shadow: 2px 4px 8px grey;
     color: aquamarine;
     transition: 0.3s;
-    transform:translate(40deg);
+    transform: translate(40deg);
 }
 
 h1:hover {
@@ -143,20 +144,23 @@ h5 {
 .content .left-sidebar {
     width: 10vw;
     height: 500px;
-    background: #f500f5;
+    background: #710071;
+    float: left;
 }
 
 .content .right-sidebar {
     width: 10vw;
     height: 500px;
-    background: #ffd105;
+    background: #3d66f8;
     overflow: hidden;
+    float: right;
 }
 
 .content .myright-sidebar {
     width: 10vw;
     height: 500px;
     background: #6e5d0d;
+    overflow: hidden;
 }
 
 .footer {
@@ -165,6 +169,7 @@ h5 {
 }
 
 .copyright {
-    background: #35453b;
+    background: #54a80a;
     height: 20px;
+    color: honeydew;
 }
