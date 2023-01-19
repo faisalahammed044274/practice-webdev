@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.box {
+    height: 700px;
+    width: 700px;
+    box-shadow: 2px 4px 16px #ff5555;
+    margin: auto;
+    background-image: url(img/ALLAH-Enought-Quote.jpg);
+    background-color: #ff5555;
+    background-repeat: no-repeat;
+    background-position: center right;
+    /* background-size: cover; */
+
+}
+
+h1 {
+    height: 200px;
+    width: 500px;
+    background: rgb(255, 0, 0);
+    box-shadow: 2px 4px 16px #ff0000;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    color: azure;
+}
+
+img {
+    height: 250px;
+    width: 350px;
+    border: 12px solid grey;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    /* CSS IMAGE CREATES ISSUES ON THEMEFOREST SO NOT TO USE IT*/
+}

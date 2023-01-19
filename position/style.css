@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+/* position: absolute; */
+/* position: relative; */
+/* position: fixed; */
+
+.vol {
+    height: 300px;
+    width: 300px;
+    background: #ff7a7a;
+    position: fixed;
+    left: 566px;
+    top: 400px;
+
+}
+
+.vol2 {
+    height: 300px;
+    width: 300px;
+    background: #377442;
+    position: absolute;
+    left: 566px;
+    top: 400px;
+    z-index: 1;
+}
+
+.vol3 {
+    height: 200px;
+    width: 200px;
+    background: #bd0000;
+    position: relative;
+    left: 690px;
+    top: 400px;
+    bottom: 0;
+    z-index: 2;
+    box-shadow: 2px 4px 12px yellow;
+}
+
+.headline {
+    font-size: medium;
+    color: rgb(218, 32, 32);
+    padding: 10px 0px;
+    text-align: center;
+    z-index: 3;
+}
