@@ -8,7 +8,7 @@ body {
 .topbar {
     max-width: 100vw;
     height: 30px;
-    background: yellow;
+    background: gold;
 }
 
 .navbar {
@@ -42,7 +42,7 @@ body {
 
 .footer {
     color: red;
-    background: grey;
+    background: gold;
     max-width: 100vw;
     padding: 20px 0;
 }
