@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.section-1 {
+    /* background: rgb(102, 153, 102); */
+    height: 700px;
+}
+
+.section-2 {
+    background: rgb(85, 108, 128);
+    height: 100px;
+    width: 85vw;
+    float: right;
+}
+
+.area-1 {
+    height: 350px;
+    background: red;
+    width: 20%;
+    float: left;
+}
+
+.area-2 {
+    background: yellow;
+    width: 60%;
+    height: 500px;
+    overflow: hidden;
+    float: left;
+}
+
+.area-3 {
+    background: rgb(156, 156, 51);
+    width: 20%;
+    height: 250px;
+    overflow: hidden;
+    float: right;
+}
+
+.area-4 {
+    height: 300px;
+    width: 20%;
+    background: greenyellow;
+    overflow: hidden;
+}
+
+.area-5 {
+	height: 200px;
+	width: 20%;
+	background: rgb(202, 94, 21);
+	overflow: hidden;
+	position: absolute;
+	top: 300px;
+	left: 0;
+}
+
+.area-6 {
+	background-color: goldenrod;
+	width: 80%;
+    height: 200px;
+	position: absolute;
+	top: 500px;
+	left: 0;
+}
