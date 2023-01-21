@@ -47,7 +47,7 @@ body {
 .area-5 {
 	height: 200px;
 	width: 20%;
-	background: rgb(202, 94, 21);
+	/* background: rgb(202, 94, 21); */
 	overflow: hidden;
 	position: absolute;
 	top: 300px;
