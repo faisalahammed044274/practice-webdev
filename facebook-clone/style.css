@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.header-area {
+    background-color: #fff;
+    box-shadow: 2px 2px 8px #a4b7de;
+    padding: 10px 0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #5c5c5c;
+}
+
+.header-area .logo-area {
+    width: 30%;
+    float: left;
+}
+
+.header-area .logo-area img {
+    width: 50%;
+}
+
+.header-area .login-area {
+    overflow: hidden;
+    width: 70%;
+}
+
+.login-area label,
+.login-area input {
+    display: block;
+}
+
+.login-area label {
+    font-size: 12px;
+}
+
+.login-area input {
+    margin: 5px 0;
+    padding: 3px;
+    border: 1px solid;
+}
+
+
+
+.login-area input[type="checkbox"] {
+    float: left;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.login-area .username-area {
+    float: left;
+    margin-right: 15px;
+}
+
+.login-area .password-area {
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.login-area a {
+    text-decoration: none;
+    color: #5c5c5c;
+    cursor: pointer;
+}
+
+.login-area a:hover {
+    color: #5c5c5c;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-area .submit-area {
+    overflow: hidden;
+    float: right;
+}
+
+.login-area form {
+    float: right;
+}
+
+.submit-area button {
+    padding: 5px 5px;
+    margin-top: 15px;
+    background: #1877f2;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 500;
+}
