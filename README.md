@@ -1,4 +1,4 @@
-# softtechit-webdev
+#webdev practices
 
 HTML,
 CSS,
