@@ -96,3 +96,52 @@ body {
     border-radius: 3px;
     font-weight: 500;
 }
+
+/* Media Query for Navbar */
+@media all and (max-width:768px) {
+    .header-area .logo-area {
+        float: none;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .header-area .login-area {
+        width: 100%;
+    }
+
+    .login-area form {
+        float: none;
+        width: 390px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .login-area .submit-area {
+        overflow: hidden;
+        float: none;
+    }
+}
+
+@media all and (max-width:420px) {
+
+    .login-area form {
+        width: auto;
+    }
+
+    .login-area .username-area {
+        float: none;
+        margin-bottom: 15px;
+    }
+
+    .login-area .password-area {
+        float: none;
+    }
+
+
+    .login-area input[type="text"],
+    .login-area input[type="password"] {
+        width: 90%;
+    }
+}
