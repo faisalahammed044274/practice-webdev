@@ -8,11 +8,11 @@ body {
 }
 
 .header-area {
-    background-color: #fff;
-    box-shadow: 2px 2px 8px #a4b7de;
+    background-color: #385694;
+    box-shadow: 2px 2px 8px #42464f;
     padding: 10px 0;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
-    color: #5c5c5c;
+    color: #ffffff;
 }
 
 .header-area .logo-area {
@@ -64,7 +64,7 @@ body {
 
 .login-area a {
     text-decoration: none;
-    color: #5c5c5c;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -147,4 +147,24 @@ body {
     .login-area input[type="password"] {
         width: 90%;
     }
+}
+
+/*************************/
+/* Main Area CSS Starts */
+/*************************/
+
+.main-area {
+    background: linear-gradient(#ffffff, #d4ded7);
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+
+}
+
+.mobile-area {
+    width: 50%;
+    float: left;
+}
+
+.signup-area {
+    width: 50%;
+    overflow: hidden;
 }
