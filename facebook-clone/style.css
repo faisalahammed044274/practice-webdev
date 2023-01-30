@@ -44,8 +44,6 @@ body {
     border: 1px solid;
 }
 
-
-
 .login-area input[type="checkbox"] {
     float: left;
     margin: 0;
@@ -113,9 +111,6 @@ body {
         text-align: center;
     }
 
-
-
-
     .header-area .login-area {
         width: 100%;
     }
@@ -147,7 +142,6 @@ body {
     .login-area .password-area {
         float: none;
     }
-
 
     .login-area input[type="text"],
     .login-area input[type="password"] {
