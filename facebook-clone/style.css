@@ -153,26 +153,17 @@ body {
 /* Main Area CSS Starts */
 /*************************/
 
-.main-area {
-    background: linear-gradient(#ffffff, #d4ded7);
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
+
+.d-flex {
+    display: flex;
 }
 
 .mobile-area {
-    width: 50%;
-    float: left;
-    margin-right: 10%;
+    justify-content: flex-start;
+    width: 40%;
 }
 
 .signup-area {
+    justify-content: flex-end;
     width: 50%;
-    overflow: hidden;
-}
-
-.mobile-image {
-    float: left;
-}
-
-.mobile-text {
-    overflow: hidden;
 }
