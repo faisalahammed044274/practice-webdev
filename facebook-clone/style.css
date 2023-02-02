@@ -153,17 +153,17 @@ body {
 /* Main Area CSS Starts */
 /*************************/
 
-
-.d-flex {
-    display: flex;
+.main-area {
+    background: linear-gradient(#ffffff, #dedfde);
+    height: 100%;
 }
 
 .mobile-area {
-    justify-content: flex-start;
-    width: 40%;
+    float: left;
+    width: 50%;
 }
 
 .signup-area {
-    justify-content: flex-end;
+    overflow: hidden;
     width: 50%;
 }
