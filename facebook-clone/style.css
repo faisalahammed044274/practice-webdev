@@ -160,16 +160,22 @@ body {
     padding-top: 20px;
 }
 
+.main-area a {
+    color: #385694;
+    text-decoration: none;
+}
+
 .mobile-area {
     float: left;
     width: 50%;
-    margin-right: 10%;
+    margin-right: 8%;
 }
 
 
 .signup-area {
     overflow: hidden;
     width: 40%;
+    padding: 10px;
 }
 
 .signup-area form>span {
@@ -276,7 +282,7 @@ body {
 }
 
 .main-area p {
-    font-size: 12px;
+    font-size: 14px;
     color: #9197AD;
 }
 
@@ -284,8 +290,26 @@ body {
     padding: 10px 30px;
     background-color: #385694;
     color: #fff;
+    cursor: pointer;
 }
 
 .signup-area input[type="date"] {
     color: #747474;
+}
+
+form a>span {
+    color: #385694;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+@media all and (max-width:420px) {
+
+    .signup-area {
+        width: 100%;
+    }
+
+    .mobile {
+        display: none;
+    }
 }
