@@ -313,3 +313,13 @@ form a>span {
         display: none;
     }
 }
+
+@media all and (max-width:1110px) {
+    .signup-area {
+        width: 100%;
+    }
+
+    .mobile-area {
+        width: 100%;
+    }
+}
