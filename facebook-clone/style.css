@@ -323,3 +323,21 @@ form a>span {
         width: 100%;
     }
 }
+
+.footer-top ul li {
+    margin-right: 30px;
+    float: left;
+    list-style: none;
+}
+
+hr {
+    border-bottom: 0;
+    border-top: 1px solid #B5BCCF;
+    border-left: 0;
+    border-right: 0;
+}
+
+.footer-bottom {
+    background-color: red;
+    
+}
