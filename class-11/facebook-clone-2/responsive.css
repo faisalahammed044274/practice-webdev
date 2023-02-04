@@ -30,14 +30,18 @@
         float: none;
     }
 
-    .left-area{
+    .left-area {
         width: 100%;
         float: none;
     }
 
-    .right-area{
+    .right-area {
         width: 100%;
         float: none;
+    }
+
+    .footer-bottom ul li {
+        width: 20%;
     }
 }
 
@@ -60,7 +64,10 @@
     .login-area input[type="password"] {
         width: 90%;
     }
+
+    .footer-bottom ul li {
+        width: 20%;
+    }
 }
 
 /*** Signup Area ***/
-

@@ -288,6 +288,7 @@ margin-right: 30px;
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    border-bottom: 1px solid #666666;
 }
 
 .signup-area .page-create {
@@ -306,5 +307,63 @@ margin-right: 30px;
 }
 
 /***
- ----Main Area Style----
+ ----Footer Area Style----
  ***/
+.footer-area {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.footer-area ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-area ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-area hr {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-top,
+.footer-bottom {
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.footer-top ul li:last-child a {
+    background: #EDF0F5;
+    padding: 2px 8px;
+}
+
+.footer-top ul li:last-child a:hover {
+    background: #c6cedd;
+    padding: 2px 8px;
+    text-decoration: none;
+}
+
+.footer-bottom ul li {
+    width: 10%;
+    color: #3b5998;
+}
+
+.copyright {
+    text-align: center;
+    background-color:#c6cedd ;
+    color: #3b5998;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.copyright a {
+    color: #3b5998;
+    font-size: 12px;
+    text-decoration: none;
+}
