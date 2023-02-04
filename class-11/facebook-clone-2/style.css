@@ -91,7 +91,7 @@ a:hover {
 }
 
 .submit-area button {
-    padding: 2px 4px;
+    padding: 2px 8px;
     margin-top: 18px;
     background: #385694;
     color: #fff;
@@ -100,16 +100,23 @@ a:hover {
     cursor: pointer;
     border-radius: 3px;
     font-weight: 500;
-    border: 1px solid #000;
+    border: 1px solid #1a3468;
 }
 
 /***
  ----Main Area Style----
  ***/
+
+.signup-area a {
+    color: #3b5998;
+    font-size: 12px;
+    line-height: 12px;
+}
+
 .signup-area {
     background: linear-gradient(#ffffff, #d3d8e8);
     font-family: Tahoma, sans-serif;
-    background-repeat: no-repeat;
+    color: #666666;
 }
 
 .left-area {
@@ -160,10 +167,12 @@ a:hover {
     margin-top: 30px;
     float: right;
     font-weight: bold;
+    font-family: Tahoma, sans-serif;
 }
 
 .mobile-area {
     overflow: hidden;
+    margin-top: 50px;
 }
 
 .mobile {
@@ -209,7 +218,7 @@ a:hover {
 }
 
 .signup-area input:focus-visible {
-    outline: 2px solid crimson;
+    outline: 2px solid #dc143c;
     border: 0;
 }
 
@@ -231,6 +240,7 @@ a:hover {
 
 .birthday-select {
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .birthday-select select {
@@ -246,6 +256,9 @@ margin-right: 30px;
 
 .birthday-select a {
     font-size: 12px;
+    line-height: 14px;
+    color: #3b5998;
+    display: block;
 }
 
 .gender-select {
@@ -253,20 +266,43 @@ margin-right: 30px;
 }
 
 .signup-area p {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .signup-area input[type="submit"] {
-    padding: 8px 16px;
+    background: linear-gradient(#83c46c, #588944);
+    padding: 10px 60px;
     font-size: 16px;
-    background-color: #385694;
     color: #ffffff;
     border: 0;
     cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 10px;
 }
 
-.page-create{
-    padding: 10px 0;
+.signup-area input[type="submit"]:hover {
+    background: linear-gradient(#588944, #83c46c);
+}
+
+.signup-area hr {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.signup-area .page-create {
+    padding-bottom: 40px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #666666;
+}
+
+.signup-area .page-create a {
+    font-size: 13px;
+}
+
+.signup-area .bday {
+    margin-bottom: 10px;
 }
 
 /***
