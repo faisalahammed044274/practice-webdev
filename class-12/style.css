@@ -36,10 +36,10 @@ body {
 }
 
 .main-menu ul li a:hover {
-    color: #534f58;
-    background: linear-gradient(#b9aec4, #ffffff);
+    color: #d0c3e0;
+    background: #524343;
 }
 
 .main-menu ul .active {
-    background: linear-gradient(#b9aec4, #ffffff);
+    background: #524343;
 }
