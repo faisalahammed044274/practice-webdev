@@ -91,8 +91,8 @@ a:hover {
 }
 
 .submit-area button {
-    padding: 4px 4px;
-    margin-top: 15px;
+    padding: 2px 4px;
+    margin-top: 18px;
     background: #385694;
     color: #fff;
     font-size: 16px;
@@ -173,6 +173,101 @@ a:hover {
     height: 320px;
 }
 
+
+/* right area */
+
+.right-area h1 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.right-area h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
+
+.signup-area form {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.signup-area input[type="text"],
+.signup-area input[type="password"] {
+    display: block;
+    padding: 10px 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #9197AD;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.signup-area input:focus-visible {
+    outline: 2px solid crimson;
+    border: 0;
+}
+
+.right-area form>input[type="text"]:nth-child(1),
+.right-area form>input[type="text"]:nth-child(2) {
+    width: 48%;
+    overflow: hidden;
+}
+
+.right-area form>input[type="text"]:nth-child(1) {
+    float: left;
+    margin-right: 4%;
+}
+
+.right-area form>input[type="text"]:nth-child(2) {
+    overflow: hidden;
+    float: left;
+}
+
+.birthday-select {
+    overflow: hidden;
+}
+
+.birthday-select select {
+    padding: 6px 3px;
+    border: 1px solid #385694;
+    float: left;
+    margin-right: 12px;
+}
+
+/* .birthday-select select:last-child{
+margin-right: 30px;
+} */
+
+.birthday-select a {
+    font-size: 12px;
+}
+
+.gender-select {
+    margin-bottom: 10px;
+}
+
+.signup-area p {
+    margin-bottom: 10px;
+}
+
+.signup-area input[type="submit"] {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #385694;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
+
+.page-create{
+    padding: 10px 0;
+}
 
 /***
  ----Main Area Style----
