@@ -1,13 +1,122 @@
 body {
     margin: 0;
+    font-size: 24px;
 }
 
-.box1{
+.box1 {
     height: 100px;
     width: 100px;
     background: red;
     position: absolute;
-    right: 10px;
-    bottom: 0;
+    left: 100%;
+    top: 0;
 }
 
+.box3 {
+    height: 100px;
+    width: 100px;
+    background: #fff700;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+
+.box4 {
+    height: 100px;
+    width: 100px;
+    background: #00ff00;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+.box5 {
+    height: 100px;
+    width: 100px;
+    background: #dd1eb7;
+    position: absolute;
+    left: 200px;
+    top: 500px;
+}
+
+.box6 {
+    height: 100px;
+    width: 100px;
+    background: #7ab37a;
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+
+.box7 {
+    height: 100px;
+    width: 100px;
+    background: #00ff00;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+.box8 {
+    height: 250px;
+    width: 250px;
+    background: #b0ffb0;
+    position: absolute;
+    left: 100%;
+    top: 100%;
+}
+
+.box8 {
+    height: 250px;
+    width: 250px;
+    background: #0044ff;
+    position: absolute;
+    left: 100%;
+    top: 100%;
+}
+
+.box9 {
+    height: 100px;
+    width: 100px;
+    background: #d80020;
+    position: absolute;
+    left: 500px;
+    top: 0;
+}
+
+.box10 {
+    height: 100px;
+    width: 100px;
+    background: #d80020;
+    position: absolute;
+    left: 0;
+    top: 500px;
+}
+
+.box11 {
+    height: 100px;
+    width: 100px;
+    background: #bf6b78;
+    position: absolute;
+    left: 200px;
+    top: 100%;
+}
+
+.box12 {
+    height: 100px;
+    width: 100px;
+    background: #bf6b78;
+    position: absolute;
+    left: 100%;
+    top: 200px;
+}
+
+
+.box2 {
+    height: 300px;
+    width: 300px;
+    background: #66bd08;
+    top: 0;
+    left: 0;
+    position: relative;
+}
