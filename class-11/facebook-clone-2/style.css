@@ -330,6 +330,8 @@ margin-right: 30px;
     border-left: 0;
     border-right: 0;
     border-bottom: 1px solid #ccc;
+    align-items: center;
+    width:100%;
 }
 
 .footer-top,
@@ -356,7 +358,7 @@ margin-right: 30px;
 
 .copyright {
     text-align: center;
-    background-color:#c6cedd ;
+    background-color:#e1e3e7 ;
     color: #3b5998;
     padding: 10px 0;
     font-size: 12px;
