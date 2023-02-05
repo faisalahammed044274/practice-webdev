@@ -8,6 +8,15 @@
     height: 200px;
     width: 200px;
     background-color: burlywood;
+    transition: .5s;
+    margin: 20px 20px;
+}
+
+.box:hover {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(green,#ddd);
+    border-radius: 30px;
 }
 
 .round {
@@ -80,6 +89,8 @@ h5~p {
 [hi] {
     color: #ad0355;
 }
-[hi = "2"] {
-    color: #e29300;
+[hi ~= "2"] {
+    color: #e200c4;
+    font-weight: 600;
+    margin-top: 10px;
 }
