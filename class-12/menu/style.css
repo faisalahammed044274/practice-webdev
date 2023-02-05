@@ -20,8 +20,10 @@ body {
     list-style: none;
 }
 
-.main-menu ul li {
+.main-menu>ul>li {
     float: left;
+    margin-right: 1px;
+    position: relative;
 }
 
 .main-menu ul li a {
@@ -33,13 +35,27 @@ body {
     cursor: pointer;
     display: inline-block;
     padding: 20px;
+    background: #524343;
 }
 
-.main-menu ul li a:hover {
+.main-menu ul li:hover a {
     color: #d0c3e0;
-    background: #524343;
+
 }
 
 .main-menu ul .active {
     background: #524343;
+}
+
+.main-menu ul ul {
+    position: absolute;
+    padding-left: 0;
+    top: 100%;
+    left: 0px;
+    min-width: 180px;
+}
+
+.main-menu ul ul li:hover{
+    background-color: aqua;
+
 }
