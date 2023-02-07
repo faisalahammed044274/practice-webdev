@@ -32,6 +32,7 @@ body {
 
 .main-menu ul li:hover a {
     background-color: #ecbe82;
+    color: #000000;
 }
 
 .main-menu ul .current a {
@@ -54,13 +55,11 @@ body {
 
 .main-menu ul li:hover ul {
     display: block;
-
-
 }
 
 .main-menu ul ul li:hover a{
     background-color: #105050;
-    color: #ffffff;
+    color: #000000;
 }
 
 /* Media Query */
@@ -84,6 +83,10 @@ body {
         background: transparent;
     }
 
+    .main-menu ul li:hover a{
+        background: transparent;
+        
+    }
     .main-menu ul ul li:hover a{
         background: transparent;
         
