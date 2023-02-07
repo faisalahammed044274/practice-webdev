@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background: #620657;
+    color: antiquewhite;
+    margin: auto;
+    position: relative;
+    margin-top: 200px;
+    transition: .3s;
+}
+
+.box:before {
+    content: '';
+    clear: both;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: #1a7b02;
+    position: absolute;
+    right: -50%;
+    bottom: -50%;
+    transition: .1s;
+}
+
+.box:after {
+    content: '';
+    clear: both;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: #ff0000;
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    transition: .1s;
+}
+
+.box:hover {
+    transform: rotate(3600deg);
+}
+
+.box:hover:before {
+    right: 100%;
+    bottom: 100%;
+    transform: rotate(90deg);
+}
+
+.box:hover:after {
+    left: 100%;
+    top: 100%;
+    transform: rotate(90deg);
+}
