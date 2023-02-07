@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+
+.box {
+    height: 0;
+    width: 0;
+    /* border-top: 300px solid #000000; */
+    border-bottom: 200px solid #000000;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.box:hover {
+    transform: rotate(45deg);
+}
+.box2:hover {
+    transform: rotate(45deg);
+}
+
+.box2 {
+    height: 0;
+    width: 0;
+    border-top: 200px solid #4b1212;
+    /* border-bottom: 200px solid #000000; */
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.box3 {
+    height: 0;
+    width: 0;
+    border-top: 200px solid transparent;
+    /* border-bottom: 200px solid #000000; */
+    border-left: 100px solid red;
+    border-right: 100px solid green;
+}
+
+.box4 {
+    height: 0;
+    width: 0;
+    /* border-top: 200px solid transparent; */
+    border-bottom: 200px solid grey;
+    border-left: 100px solid red;
+    border-right: 100px solid green;
+}
+
+.box5 {
+    height: 0;
+    width: 0;
+    border-top: 200px solid grey;
+    /* border-bottom: 200px solid #000000; */
+    border-left: 100px solid red;
+    border-right: 100px solid green;
+    float: left;
+}
+
+.box6 {
+    height: 0;
+    width: 0;
+    border-top: 400px solid transparent;
+    border-left: 100px solid green;
+    border-right: 100px solid green;
+    overflow: hidden;
+}
+
+.box6:hover {
+    transform: rotate(90deg);
+}
