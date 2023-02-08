@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("/class-14/psdtohtml/assets/fonts/ UI.woff") format("woff");
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI";
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.header-area {
+    background: #23232e;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 35px 0;
+}
+
+.logo-area img {
+    margin-bottom: 40px;
+}
+
+.header-area .slogan h2 {
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-area .slogan p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 120px;
+}
+
+.next-section a i {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.about {
+    color: #23232e;
+    text-align: center;
+    padding: 80px 0;
+    background-size: cover;
+}
+
+.content p {
+    font-size: 24px;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.our-goal {
+    overflow: hidden;
+}
+
+.goal {
+    width: 32%;
+    float: left;
+    overflow: hidden;
+    margin-right: 2%;
+}
+
+.goal:nth-child(3n) {
+    margin-right: 0;
+}
+
+.our-goal h4 {
+    text-align: left;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.goal p {
+    font-size: 16px;
+    text-align: left;
+}
