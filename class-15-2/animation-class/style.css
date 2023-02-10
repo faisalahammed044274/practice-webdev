@@ -16,6 +16,10 @@ body {
     animation-duration: 8s;
 }
 
+.box:hover{
+    animation-play-state: paused;
+}
+
 /* @keyframes setu {
     from{
         left: 0;
@@ -43,7 +47,7 @@ body {
 
     50% {
         background-color: black;
-        
+
     }
 
     100% {
