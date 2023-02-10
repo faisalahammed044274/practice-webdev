@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background: firebrick;
+    position: absolute;
+    -webkit-animation: setu .13s linear infinite;
+    animation: setu .13s linear infinite;
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+    animation-direction: reverse;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+}
+
+/* @keyframes setu {
+    from{
+        left: 0;
+        top: 0;
+    }
+    
+    to{
+        left: 500px;
+        top: 200px;
+    }
+} */
+@keyframes setu {
+    0% {
+        left: 10px;
+        top: 0px;
+        height: 30px;
+        width: 60px;
+    }
+
+    20% {
+        left: 500px;
+        top: 0;
+        background: blue;
+    }
+
+    50% {
+        background-color: black;
+        
+    }
+
+    100% {
+        top: 50%;
+        left: 50%;
+    }
+}
