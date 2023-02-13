@@ -8,31 +8,32 @@ Author URI : http://www.mfasetu.com/
 Licence : GNU General Public License Version 3.0
 Licence URI : http://www.gnu.org/licence/gpl-3.0.html
 Version : 1.0
+
 ---------------------------------------
 
-01.Typography
-02. Header Area
+1.Typography
+2. Header Area
     2.1. Menu Area
     2.2. Welcome Area
     2.3. Social Area
-03. Getting Started
-04. Design Area
-05. Community Area
-06. Subscribe Area
-07. Download Area
-08. Footer Area
+3. Getting Started
+4. Design Area
+5. Community Area
+6. Subscribe Area
+7. Download Area
+8. Footer Area
 
 -----------------------------*/
 
 /****************************
-********  Typography  ********
+********  1. Typography  ********
 ****************************/
 
 
 
 
 /****************************
-********  Header Area  ********
+********  2. Header Area  ********
 ****************************/
 .header-area {
     background-color: crimson;
@@ -63,7 +64,7 @@ nav ul {
 }
 
 /****************************
-*****  Getting Started  *****
+*****  3. Getting Started  *****
 ****************************/
 
 
@@ -72,7 +73,7 @@ nav ul {
 
 
 /****************************
-********  Design Area  ********
+********  4. Design Area  ********
 ****************************/
 
 
@@ -81,7 +82,7 @@ nav ul {
 
 
 /****************************
-*****  Community Area  *****
+*****  5. Community Area  *****
 ****************************/
 
 
@@ -90,7 +91,7 @@ nav ul {
 
 
 /****************************
-*****  Subscribe Area  *****
+*****  6. Subscribe Area  *****
 ****************************/
 
 
@@ -99,7 +100,7 @@ nav ul {
 
 
 /****************************
-*****  Download Area  *****
+*****  7. Download Area  *****
 ****************************/
 
 
@@ -108,5 +109,5 @@ nav ul {
 
 
 /****************************
-*****  Footer Area  *****
+*****  8. Footer Area  *****
 ****************************/
