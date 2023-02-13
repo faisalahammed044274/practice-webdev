@@ -1,0 +1,112 @@
+/*---------------------------
+
+Template Name : Phototime
+Template URI : http://www.mfasetu.com/phototime
+Description : Photo related template
+Author : Fasial Ahammed setu
+Author URI : http://www.mfasetu.com/
+Licence : GNU General Public License Version 3.0
+Licence URI : http://www.gnu.org/licence/gpl-3.0.html
+Version : 1.0
+---------------------------------------
+
+01.Typography
+02. Header Area
+    2.1. Menu Area
+    2.2. Welcome Area
+    2.3. Social Area
+03. Getting Started
+04. Design Area
+05. Community Area
+06. Subscribe Area
+07. Download Area
+08. Footer Area
+
+-----------------------------*/
+
+/****************************
+********  Typography  ********
+****************************/
+
+
+
+
+/****************************
+********  Header Area  ********
+****************************/
+.header-area {
+    background-color: crimson;
+    padding: 10px 0;
+    color: chartreuse;
+    grid-row-start: span;
+    display: block;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.menu-area ul li {
+    float: left;
+    margin-left: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu-area h2 {
+    text-transform: capitalize;
+}
+
+/****************************
+*****  Getting Started  *****
+****************************/
+
+
+
+
+
+
+/****************************
+********  Design Area  ********
+****************************/
+
+
+
+
+
+
+/****************************
+*****  Community Area  *****
+****************************/
+
+
+
+
+
+
+/****************************
+*****  Subscribe Area  *****
+****************************/
+
+
+
+
+
+
+/****************************
+*****  Download Area  *****
+****************************/
+
+
+
+
+
+
+/****************************
+*****  Footer Area  *****
+****************************/
