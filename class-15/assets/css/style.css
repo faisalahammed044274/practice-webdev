@@ -29,12 +29,23 @@ Version : 1.0
 ********  1. Typography  ********
 ****************************/
 
+@font-face {
+    font-family: "gotham rounded";
+    src: url('/class-15/assets/fonts/gothamroundedbook.woff') format('woff');
+}
 
+body,
+p{
+    font-family: "gotham rounded";
+    font-size: 12px;
+    line-height: 1.3em;
+}
 
 
 /****************************
 ********  2. Header Area  ********
 ****************************/
+
 .header-area {
     background-color: crimson;
     padding: 10px 0;
