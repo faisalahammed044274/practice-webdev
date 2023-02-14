@@ -25,9 +25,11 @@ Version : 1.0
 
 -----------------------------*/
 
+
 /****************************
 ********  1. Typography  ********
 ****************************/
+
 
 @font-face {
     font-family: "gotham rounded";
@@ -35,7 +37,7 @@ Version : 1.0
 }
 
 body,
-p{
+p {
     font-family: "gotham rounded";
     font-size: 12px;
     line-height: 1.3em;
@@ -46,33 +48,114 @@ p{
 ********  2. Header Area  ********
 ****************************/
 
+
 .header-area {
-    background-color: crimson;
-    padding: 10px 0;
-    color: chartreuse;
-    grid-row-start: span;
-    display: block;
+    background: url(/class-15/assets/img/header-bg.jpg) no-repeat 0 0 / 100% 100%;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    padding: 25px 0;
 }
 
-a {
+
+/****************************
+********  2.1 Menu Area  ********
+****************************/
+
+.menu-area ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-area ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+.menu-area ul li a {
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.menu-area ul .logo img {
+    margin: 0 40px;
+    width: 40px;
+    height: auto;
+    padding-top: 20px;
+}
+
+
+/****************************
+********  2.2 Welcome Text  ********
+****************************/
+
+.welcome-text {
+    margin-top: 190px;
+}
+
+.welcome-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.welcome-text h5 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom:30px ;
+}
+
+.welcome-text a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 34px;
+    background: #16a085;
+
+}
+
+.btn{
+    text-decoration: none;
+    color: #ffffff;
+    background: #16A086;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/****************************
+********  2.3 Social media  ********
+****************************/
+.social-media {
+	overflow: hidden;
+	margin-top: 130px;
+}
+
+.social-media ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.social-media ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a{
     color: #ffffff;
     text-decoration: none;
 }
 
-nav ul {
-    list-style: none;
-}
-
-.menu-area ul li {
-    float: left;
-    margin-left: 12px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.menu-area h2 {
-    text-transform: capitalize;
-}
 
 /****************************
 *****  3. Getting Started  *****
