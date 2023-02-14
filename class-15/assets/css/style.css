@@ -36,6 +36,17 @@ Version : 1.0
     src: url('/class-15/assets/fonts/gothamroundedbook.woff') format('woff');
 }
 
+@font-face {
+    font-family: "gotham medium";
+    src: url('/class-15/assets/fonts/gothamroundedbook.woff') format('woff');
+    src: url('/class-15/assets/fonts/GothamRoundedMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: "gotham bold";
+    src: url('/class-15/assets/fonts/GothamRoundedBold.woff') format('woff');
+}
+
 body,
 p {
     font-family: "gotham rounded";
@@ -79,7 +90,6 @@ p {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 900;
     font-size: 12px;
 }
 
@@ -101,16 +111,17 @@ p {
 
 .welcome-text h2 {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 20px;
+    font-family: "gotham bold";
 }
 
 .welcome-text h5 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: capitalize;
-    margin-bottom:30px ;
+    margin-bottom: 30px;
 }
 
 .welcome-text a {
@@ -121,7 +132,7 @@ p {
 
 }
 
-.btn{
+.btn {
     text-decoration: none;
     color: #ffffff;
     background: #16A086;
@@ -129,32 +140,32 @@ p {
     padding: 10px 25px;
     border-radius: 4px;
     display: inline-block;
+    margin-bottom: 12 0px ;
 }
 
 /****************************
 ********  2.3 Social media  ********
 ****************************/
-.social-media {
-	overflow: hidden;
-	margin-top: 130px;
-}
 
-.social-media ul{
+.social-media ul {
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.social-media ul li{
+.social-media ul li {
     display: inline;
     margin: 0 10px;
 }
 
-.social-media ul li a{
+.social-media ul li a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 26px;
 }
+
+
 
 
 /****************************
