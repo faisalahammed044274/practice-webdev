@@ -54,6 +54,11 @@ p {
     line-height: 1.3em;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
+}
 
 /****************************
 ********  2. Header Area  ********
@@ -133,14 +138,16 @@ p {
 }
 
 .btn {
-    text-decoration: none;
-    color: #ffffff;
-    background: #16A086;
+
     text-transform: uppercase;
-    padding: 10px 25px;
     border-radius: 4px;
     display: inline-block;
     margin-bottom: 120px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 34px;
+    background: #16a085;
+
 }
 
 /****************************
@@ -172,8 +179,56 @@ p {
 *****  3. Getting Started  *****
 ****************************/
 
+.getting-started {
+    background: #F5F6F8;
+    overflow: hidden;
+    max-height: 305px;
+    padding-top: 60px;
+}
 
+.getting-started h3 {
+    color: #16a085;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;line-height: 24px;
+}
 
+.getting-started p {
+    color: #373737;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+/*******/
+.text-area {
+    padding: 10px 0;
+}
+
+.text-area p span {
+    font-weight: 700;
+}
+
+.text-area .btn {
+    font-size: 12px;
+
+}
+
+.image-area {
+    width: 50%;
+    overflow: hidden;
+}
+
+.image-area>img {
+    width: 100%;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
 
 
 
@@ -181,7 +236,16 @@ p {
 ********  4. Design Area  ********
 ****************************/
 
+.design-area{
+    background: #F5F6F8;
+    overflow: hidden;
+    max-height: 305px;
+    padding-top: 60px;
+}
 
+.design-area .image-area{
+    margin-left: 30px;
+}
 
 
 
