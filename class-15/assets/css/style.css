@@ -96,6 +96,12 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 8px;
+}
+
+.menu-area ul li a:hover {
+    border-bottom: 1px solid #ffffff;
 }
 
 .menu-area ul .logo img {
@@ -103,6 +109,14 @@ p {
     width: 40px;
     height: auto;
     padding-top: 20px;
+}
+
+.menu-area ul .logo a{
+    border: 0;
+}
+
+.menu-area ul .logo a:hover{
+    border: 0;
 }
 
 
@@ -147,7 +161,13 @@ p {
     text-decoration: none;
     padding: 15px 34px;
     background: #16a085;
+    border: 1px solid transparent;
+}
 
+.btn:hover{
+    background: transparent;
+    border: 1px solid #16a085;
+    color: #16a085;
 }
 
 /****************************
@@ -171,9 +191,6 @@ p {
     text-decoration: none;
     font-size: 26px;
 }
-
-
-
 
 /****************************
 *****  3. Getting Started  *****
