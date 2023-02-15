@@ -191,6 +191,9 @@ p {
     text-decoration: none;
     font-size: 26px;
 }
+.social-media ul li a:hover {
+    color: #16a085;
+}
 
 /****************************
 *****  3. Getting Started  *****
