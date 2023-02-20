@@ -351,7 +351,33 @@ p {
 *****  6. Subscribe Area  *****
 ****************************/
 
+.subcribe-area {
+    background-image: url(/class-15/assets/img/subscribe-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+}
 
+.subcribe-area h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subcribe-area form input {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #373737;
+}
+
+.subcribe-area form i {
+    color: #ffffff;
+    background-color: #16a085;
+    padding: 15px 15px;
+}
 
 
 
@@ -359,12 +385,47 @@ p {
 /****************************
 *****  7. Download Area  *****
 ****************************/
+.download-area {
+    text-align: center;
+    padding: 60px 20px;
+}
 
+.download-area h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
 
-
+.download-area p {
+    font-size: 12px;
+    color: #373737;
+}
 
 
 
 /****************************
 *****  8. Footer Area  *****
 ****************************/
+
+.top-content{
+    color: #d4d5d6;
+}
+.top-content ul{
+    margin: 0;
+}
+.top-content ul li{
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    display: block;
+}
+.top-content a{
+    text-decoration: none;
+    color: #000000;
+   
+}
+
+.top-content p{
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+}
