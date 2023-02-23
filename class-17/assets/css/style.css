@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+.frrmmm {
+    background: lightgreen;
+}
+
+form {
+    /* background: #a4afc7; */
+    padding: 60px;
+    border-radius:   0 0 12px 12px;
+}
+
+.data-margin {
+    margin-bottom: 12px;
+}
