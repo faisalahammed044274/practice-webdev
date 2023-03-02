@@ -90,59 +90,59 @@
         <!--################START HERE################-->
 
         <!-- BUTTONS -->
-        <button type="button btn-primary">Primary</button>
-        <button type="button btn-secondary">Secondary</button>
-        <button type="button btn-success">Success</button>
-        <button type="button btn-info">Info</button>
-        <button type="button btn-warning">Warning</button>
-        <button type="button btn-danger">Danger</button>
-        <button type="button btn-light">Light</button>
-        <button type="button btn-dark">Dark</button>
-        <button type="button btn-link">Link</button>
+        <button type="button" class="btn-primary">Primary</button>
+        <button type="button" class="btn-secondary">Secondary</button>
+        <button type="button" class="btn-success">Success</button>
+        <button type="button" class="btn-info">Info</button>
+        <button type="button" class="btn-warning">Warning</button>
+        <button type="button" class="btn-danger">Danger</button>
+        <button type="button" class="btn-light">Light</button>
+        <button type="button" class="btn-dark">Dark</button>
+        <button type="button" class="btn-link">Link</button>
 
         <br>
         <br>
 
         <!-- BUTTON TAGS/TYPES -->
-        <a href="#" role="button" class="button">Link</a>
-        <button type="submit">Button</button>
-        <input type="button" value="Input">
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
+        <a href="#" role="button" class="btn btn-primary">Link</a>
+        <button type="submit" class="btn btn-primary">Button</button>
+        <input type="button" value="Input" class="btn btn-primary">
+        <input type="submit" value="Submit" class="btn btn-primary">
+        <input type="reset" value="Reset" class="btn btn-info">
 
         <br>
         <br>
 
         <!-- OUTLINE BUTTONS -->
-        <button type="button">Primary Outline</button>
-        <button type="button">Secondary Outline</button>
-        <button type="button">Success Outline</button>
-        <button type="button">Info Outline</button>
-        <button type="button">Warning Outline</button>
-        <button type="button">Danger Outline</button>
-        <button type="button">Light Outline</button>
-        <button type="button">Dark Outline</button>
+        <button type="button" class="btn btn-outline-primary">Primary Outline</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary Outline</button>
+        <button type="button" class="btn btn-outline-success">Success Outline</button>
+        <button type="button" class="btn btn-outline-info">Info Outline</button>
+        <button type="button" class="btn btn-outline-warning">Warning Outline</button>
+        <button type="button" class="btn btn-outline-danger">Danger Outline</button>
+        <button type="button" class="btn btn-outline-light">Light Outline</button>
+        <button type="button" class="btn btn-outline-dark">Dark Outline</button>
 
         <br>
         <br>
 
         <!-- BUTTON SIZES -->
-        <button type="button">
-            <i class="fa fa-user"></i> Large button</button>
-        <button type="button">Small button</button>
+        <button type="button" class="btn btn-lg btn-info">
+            <i class="fa fa-user" ></i> Large button</button>
+        <button type="button" class="btn btn-success btn-sm">Small button</button>
         <br>
         <br>
-        <button type="button">Block level button</button>
+        <button type="button" class="btn btn-block">Block level button</button>
 
         <br>
         <br>
 
         <!-- STATES -->
-        <button type="button">Regular Button</button>
-        <button type="button">Active Button</button>
-        <button type="button">Disabled Button</button>
+        <button type="button" class="btn">Regular Button</button>
+        <button type="button" class="btn active">Active Button</button>
+        <button type="button" class="btn disabled">Disabled Button</button>
 
-        <button type="button">
+        <button type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off">
             Toggle State
         </button>
 
@@ -150,29 +150,29 @@
         <br>
 
         <!-- BUTTON GROUPS -->
-        <div>
-            <button type="button">Left</button>
-            <button type="button">Middle</button>
-            <button type="button">Right</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Left</button>
+            <button type="button" class="btn btn-secondary">Middle</button>
+            <button type="button" class="btn btn-danger">Right</button>
         </div>
 
         <br></br>
 
         <!-- BUTTON TOOLBAR -->
-        <div>
-            <div>
-                <button type="button">1</button>
-                <button type="button">2</button>
-                <button type="button">3</button>
-                <button type="button">4</button>
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-primary">1</button>
+                <button type="button" class="btn btn-primary">2</button>
+                <button type="button" class="btn btn-primary">3</button>
+                <button type="button" class="btn btn-primary">4</button>
             </div>
-            <div>
-                <button type="button">5</button>
-                <button type="button">6</button>
-                <button type="button">7</button>
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+                <button type="button" class="btn btn-secondary">5</button>
+                <button type="button" class="btn btn-secondary">6</button>
+                <button type="button" class="btn btn-secondary">7</button>
             </div>
-            <div>
-                <button type="button">8</button>
+            <div class="btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-info">8</button>
             </div>
         </div>
 
@@ -180,10 +180,10 @@
         <br>
 
         <!-- VERTICAL GROUP -->
-        <div>
-            <button type="button">Left</button>
-            <button type="button">Middle</button>
-            <button type="button">Right</button>
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-success">Top</button>
+            <button type="button" class="btn btn-dark">Middle</button>
+            <button type="button" class="btn btn-danger">Bottom</button>
         </div>
 
         <br>
@@ -191,13 +191,14 @@
 
         <!-- BUTTON DROPDOWNS -->
         <div>
-            <button type="button">
+            <button type="button" class="btn btn-primary dropdown-toggle"
+             data-bs-toggle="dropdown" aria-expanded="false">
                 My Dropdown
             </button>
-            <div>
-                <a href="#">Link One</a>
-                <a href="#">Link Two</a>
-                <a href="#">Link Three</a>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a href="#" class="dropdown-item">Link One</a>
+                <a href="#" class="dropdown-item">Link Two</a>
+                <a href="#" class="dropdown-item">Link Three</a>
             </div>
         </div>
 
@@ -206,16 +207,17 @@
 
         <!-- SPLIT DROPDOWNS -->
         <div>
-            <button type="button">My Button</button>
+            <button type="button" class="btn btn-primary dropdown-toggle"
+            data-bs-toggle="dropdown" aria-expanded="false">My Button</button>
             <button type="button">
                 <span>Toggle Dropdown</span>
             </button>
-            <div>
-                <a href="#">Link One</a>
-                <a href="#">Link Two</a>
-                <a href="#">Link Three</a>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a href="#" class="dropdown-item">Link One</a>
+                <a href="#" class="dropdown-item">Link Two</a>
+                <a href="#" class="dropdown-item">Link Three</a>
                 <div></div>
-                <a href="#">Link Four</a>
+                <a href="#" class="dropdown-item">Link Four</a>
             </div>
         </div>
 
