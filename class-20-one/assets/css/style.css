@@ -1,0 +1,92 @@
+/**** Header Area ****/
+
+.header-section {
+  overflow: hidden;
+  position: relative;
+}
+
+.header-section .logo-section {
+  display: none;
+}
+
+.header-section .main-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.header-section a {
+  text-decoration: none;
+  color: #545162;
+}
+
+.header-section .list-inline-item {
+  margin-right: 22px;
+}
+
+.header-section .main-menu a {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #4d4959;
+  transition: all 0.3s;
+}
+
+.header-section .main-menu a:hover {
+  color: #64c29e;
+  font-weight: 600;
+  border-bottom: 2px solid #64c29e;
+}
+
+.header-section .header-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-section .main-menu .logo:hover a{
+    border: 0;
+}
+
+/* Media Query */
+
+/* @media(min-width : 576px){
+  
+}
+@media(min-width : 768px){
+
+}
+@media(min-width : 992px){
+
+}
+@media(min-width : 1200px){
+
+}
+@media (min-width: 1400px) {
+
+} */
+
+/* Bootstrap breakpoints */
+
+
+/* @include media-breakpoint-up(sm){
+  
+}
+@include media-breakpoint-up(md){
+
+}
+@include media-breakpoint-up(lg){
+
+}
+@include media-breakpoint-up(xl){
+
+}
+@include media-breakpoint-up(xxl){
+
+} */
+
+/* .f-left{
+  float: left;
+  overflow: hidden;
+} */
