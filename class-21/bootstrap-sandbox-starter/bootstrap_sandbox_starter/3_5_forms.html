@@ -135,7 +135,7 @@
             <!-- RANGE -->
             <div class="form-group">
                 <label for="membership">Membership Level</label>
-                <input class="custom-range" type="range">
+                <input class="custom-range" type="range" min="1" max="100" value="5" step="2">
             </div>
 
             <br>
@@ -147,16 +147,16 @@
         <br>
 
         <!-- INLINE FORM -->
-        <form>
-            <input type="text" id="username" placeholder="Enter username">
-            <input type="text" id="password" placeholder="Password">
-            <div>
-                <label>
-                    <input type="checkbox"> Remember me
+        <form class="form-inline">
+            <input class="form-control mr-3" type="text" id="username" placeholder="Enter username">
+            <input class="form-control mr-3" type="text" id="password" placeholder="Password">
+            <div class="form-check mr-3">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Remember me
                 </label>
             </div>
 
-            <button type="submit">Submit</button>
+            <button type="submit" class="btn btn-outline-success">Submit</button>
         </form>
 
         <br>
@@ -164,12 +164,12 @@
 
         <!-- FORM ROW -->
         <form>
-            <div>
-                <div>
-                    <input type="text" placeholder="First name">
+            <div class="form-row">
+                <div class="col">
+                    <input class="form-control" type="text" placeholder="First name">
                 </div>
-                <div>
-                    <input type="text" placeholder="Last name">
+                <div class="col">
+                    <input class="form-control" type="text" placeholder="Last name">
                 </div>
             </div>
         </form>
@@ -178,26 +178,27 @@
         <br>
 
         <!-- VALIDATION -->
-        <div>
-            <label for="username">Username</label>
-            <input type="text" id="username">
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="text" id="password">
-            <div>
-                Password not strong enough
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input class="form-control is-valid" type="text" id="username">
             </div>
-        </div>
-        <div>
-            <label for="password2">Confirm Password</label>
-            <input type="text" id="password2">
-            <div>
-                Password does not match
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input class="form-control is-invalid" type="text" id="password">
+                <div class="text-warning text-small">
+                    Password not strong enough
+                </div>
             </div>
-        </div>
-
-    </div>
+            <div class="form-group">
+                <label for="password2">Confirm Password</label>
+                <input class="form-control is-invalid" type="text" id="password2">
+                <div class="text-small text-warning">
+                    Password does not match
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-outline-dark text-primary pl-5 pr-5">Submit</button>
+            </div>
     <!-- ./container -->
     <div style="margin-top:500px;"></div>
 
