@@ -90,57 +90,57 @@
         <!-- FORM -->
         <form>
             <!-- TEXT FIELD GROUPS -->
-            <div>
+            <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Enter name">
+                <input class="form-control" type="text" id="name" placeholder="Enter name">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" id="email" placeholder="Enter email">
+                <input class="form-control" type="email" id="email" placeholder="Enter email">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="company">Company</label>
-                <input type="text" id="company" placeholder="Enter company name">
+                <input class="form-control" type="text" id="company" placeholder="Enter company name">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Password">
+                <input class="form-control" type="password" id="password" placeholder="Password">
             </div>
             <!-- SELECT -->
-            <div>
+            <div class="form-group">
                 <label for="gender">Gender</label>
-                <select id="gender">
+                <select class="input-group" id="gender">
                     <option>Male</option>
                     <option>Female</option>
                 </select>
             </div>
             <!-- TEXTAREA -->
-            <div>
+            <div class="form-group">
                 <label for="message">Message</label>
-                <textarea id="message" rows="3"></textarea>
+                <textarea class="form-control" id="message" rows="3"></textarea>
             </div>
             <!-- FILE INPUT -->
-            <div>
+            <div class="form-group">
                 <label for="file">File input</label>
-                <input type="file" id="file">
-                <small id="fileHelp">Max 3mb size</small>
+                <input class="form-control-file" type="file" id="file">
+                <small class="text-muted text-small" id="fileHelp">Max 3mb size</small>
             </div>
             <!-- CUSTOM FILE INPUT -->
-            <div>
-                <input type="file" id="myfile">
-                <label for="myfile">Choose file</label>
+            <div class="form-group custom-file">
+                <input class="custom-file-input" type="file" id="myfile">
+                <label class="custom-file-label" for="myfile">Choose file</label>
             </div>
             <br>
             <br>
             <!-- RANGE -->
-            <div>
+            <div class="form-group">
                 <label for="membership">Membership Level</label>
-                <input type="range">
+                <input class="custom-range" type="range">
             </div>
 
             <br>
 
-            <button type="submit">Submit</button>
+            <button class="btn btn-success" type="submit">Submit</button>
         </form>
 
         <br>
