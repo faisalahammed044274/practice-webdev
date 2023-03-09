@@ -112,7 +112,7 @@
     <br>
 
     <!-- DISMISSIBLE POPOVER -->
-    <button id="#MyData" class="btn btn-primary" data-toggle="popover" title="popover show hide title" 
+    <button id="MyData" class="btn btn-primary" data-toggle="popover" title="popover show hide title" 
     data-content="Show Hide content. It's very engaging. Right?">
       Toggle popover
     </button>
@@ -139,23 +139,22 @@ $(function () {
   $('[data-toggle="popover"]').popover()
 })
 
-$(
+
   function showData(){
   $('#MyData').popover('show')
 }
-)
 
-$(
+
   function hideData(){
   $('#MyData').popover('hide')
 }
-)
 
-$(
+
+
   function toggleData(){
   $('#MyData').popover('toggle')
 }
-)
+
 
   </script>
 </body>
