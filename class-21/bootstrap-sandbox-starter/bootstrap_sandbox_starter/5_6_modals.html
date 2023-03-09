@@ -88,22 +88,22 @@
     <!--#################START HERE#####################-->
 
     <!-- MODAL TRIGGER -->
-    <button>Launch Modal</button>
+    <button class="btn btn-info" data-toggle="modal" data-target="#modalOne">Launch Modal</button>
 
     <!-- MODAL -->
-    <div>
-      <div>
-        <div>
-          <div>
-            <h5>Modal Title</h5>
-            <button>&times;</button>
+    <div id="modalOne" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal Title</h5>
+            <button class="btn btn-outline-warning" data-dismiss="modal">&times;</button>
           </div>
-          <div>
+          <div class="modal-body">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus unde veniam harum magnam molestias dignissimos omnis
             architecto, quod, obcaecati dolorum debitis dolore porro qui, iusto quo accusantium voluptates pariatur illo.
           </div>
-          <div>
-            <button>Close</button>
+          <div class="modal-footer">
+            <button class="btn btn-warning" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -113,9 +113,33 @@
     <br>
 
     <!-- LOGIN MODAL TRIGGER -->
+    <button class="btn btn-success" data-toggle="modal" data-target="#login">Login</button>
 
 
     <!-- LOGIN MODAL -->
+
+    <div id="login" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Please Login to continue !</h5>
+            <button class="btn btn-outline-warning" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <form action="#" method="get">
+              <label for="username">Enter Username</label>
+              <input class="d-block mb-4 form-control" type="text" name="username" id="username" placeholder="Jhon123">
+              <label for="password">Enter Password</label>
+              <input class="d-block mb-4 form-control" type="password" name="password" id="password" placeholder="********">
+              <button class="d-block btn btn-success" type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-warning" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 
