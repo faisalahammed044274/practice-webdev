@@ -88,17 +88,23 @@
     <!--###################START HERE######################-->
 
     <!-- TOOLTIPS -->
-    <button class="btn btn-primary">Tooltip On Top</button>
-    <button class="btn btn-success">Tooltip On Right</button>
-    <button class="btn btn-warning">Tooltip On Bottom</button>
-    <button class="btn btn-danger">Tooltip On Left</button>
+    <button type="button" class="btn btn-primary" data-toggle="tooltip" 
+    data-placement="top" title="data on top, okay?">Tooltip On Top</button>
+
+    <button type="button" class="btn btn-success" data-toggle="tooltip" 
+    data-placement="right" title="data on right">Tooltip On Right</button>
+
+    <button type="button" class="btn btn-warning" data-toggle="tooltip" 
+    data-placement="bottom" title="data on bottom">Tooltip On Bottom</button>
+
+    <button type="button" class="btn btn-danger" data-toggle="tooltip" 
+    data-placement="left" title="data on left">Tooltip On Left</button>
 
     <br>
     <br>
 
     <!-- TOOLTIPS WITH HTML -->
-    <button class="btn btn-primary">Tooltip On With HTML</button>
-
+    <button class="btn btn-primary" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>With</u> <b>HTML</b>">Tooltip On With HTML</button>
     <hr>
 
     <!-- TRIGGER WITH JS -->
@@ -118,14 +124,19 @@
 
   <div style="margin-top:500px;"></div>
 
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
-  <script>
 
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
   </script>
 </body>
 
