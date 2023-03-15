@@ -75,7 +75,7 @@
 
 .section p {
   color: #848789;
-  font-size: 18px;
+  font-size: 17px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 34px;
@@ -85,4 +85,51 @@
   width: 80%;
   margin: 0 auto;
   display: block;
+}
+
+.bg-small{
+  max-height: 485px;
+  overflow: hidden;
+}
+
+.big img,
+.small-img {
+  width: 100%;
+  height: auto;
+}
+
+.section {
+  overflow: hidden;
+}
+
+.section .small,
+.section .big {
+  float: left;
+  overflow: hidden;
+}
+
+.small-des {
+  margin-top: 31px;
+  margin-bottom: 31px;
+  position: relative;
+}
+
+.small-des:after {
+  content: "";
+  height: 0;
+  width: 0;
+  border-top: 10px solid red;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+
+.small-img {
+  background-image: url("/class-23-cycle-project/assets/img/vintage-bike-small.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  min-height: 182px;
+  background-position: bottom left;
 }
