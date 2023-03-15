@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
 /**** Header Area ****/
 
 .header-section {
@@ -45,6 +47,42 @@
   height: auto;
 }
 
-.header-section .main-menu .logo:hover a{
-    border: 0;
+.header-section .main-menu .logo:hover a {
+  border: 0;
+}
+
+/* intro section */
+
+.intro-section {
+  padding: 100px 0;
+  background: #f7f7f7;
+}
+
+.section .icon {
+  width: 50px;
+  height: 42px;
+}
+
+.section h2 {
+  color: #353738;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 3em;
+  text-transform: uppercase;
+}
+
+.section p {
+  color: #848789;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.section .content {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
 }
