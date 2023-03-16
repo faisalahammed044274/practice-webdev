@@ -174,3 +174,35 @@
   border: 0;
   border-top: 1px solid red;
 }
+
+/* Twitter Section */
+.tweet-icon {
+  color: #56c7ee;
+  font-size: 34px;
+}
+
+.twitter-section {
+  padding: 100px 0;
+  background:#f7f7f7;
+}
+
+.twitter-section h2 {
+  color: #353738;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 3em;
+}
+
+.twitter-section span {
+  font-weight: 400;
+  color: #353738;
+  letter-spacing: 3px;
+}
+
+.content {
+  width: 60%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
