@@ -98,6 +98,7 @@
 
 .small-big {
   max-height: 485px;
+  overflow: hidden;
 }
 
 .big img,
