@@ -1,0 +1,10 @@
+body {
+	background: #333;
+}
+
+h1 {
+	color: honeydew;
+	background: red;
+	padding: 50px;
+	box-shadow: 2px 6px 12px lightblue;
+}

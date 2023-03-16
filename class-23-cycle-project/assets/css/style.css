@@ -243,8 +243,7 @@
   font-weight: 600;
 }
 
-
-.subscriber-section{
+.subscriber-section {
   padding: 100px 0;
 }
 
@@ -253,40 +252,39 @@
   color: #929292;
   border: 1px solid #929292;
 }
-.subscriber-section form{
+.subscriber-section form {
   display: inline-block;
-
 }
 
 .subscribe-btn {
-	padding: 10px 15px;
+  padding: 10px 15px;
 }
 
-.footer-section{
-background: #f7f7f7;
-padding: 50px 0;
+.footer-section {
+  background: #f7f7f7;
+  padding: 50px 0;
 }
-.footer-section h5{
+.footer-section h5 {
   color: #848789;
   font-family: "lato", sans-serif;
   font-weight: 700;
   font-size: 16px;
 }
 
-.footer-section p{
+.footer-section p {
   color: #848789;
   font-family: "lato", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 
-.footer-section i{
+.footer-section i {
   font-size: 34px;
   color: skyblue;
   letter-spacing: 24px;
 }
 
-.footer-section span{
+.footer-section span {
   color: #848789;
   font-family: "lato", sans-serif;
   font-weight: 400;
