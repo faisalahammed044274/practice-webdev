@@ -87,7 +87,11 @@
   display: block;
 }
 
-.bg-small {
+.big-small {
+  max-height: 485px;
+  overflow: hidden;
+}
+.big-small-big {
   max-height: 485px;
   overflow: hidden;
 }
@@ -140,6 +144,13 @@
 
 .small-big .small-img {
   background-image: url("/class-23-cycle-project/assets/img/seat-black.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  min-height: 179px;
+  background-position: bottom left;
+}
+.big-small-big .small-img {
+  background-image: url("/class-23-cycle-project/assets/img/chrome-wheels.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   min-height: 179px;
