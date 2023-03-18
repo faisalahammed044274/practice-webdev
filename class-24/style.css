@@ -1,10 +1,57 @@
 body {
-	background: #333;
+	margin: 0;
 }
 
-h1 {
-	color: honeydew;
-	background: red;
-	padding: 50px;
-	box-shadow: 2px 6px 12px lightblue;
+.social-icons ul {
+	list-style: none;
+}
+
+.social-icons ul li {
+	float: left;
+}
+
+.social-icons ul li a {
+	display: block;
+	height: 84px;
+	width: 84px;
+	background-image: url('/class-24/img/social.png');
+	transition: .3s;
+}
+
+.social-icons ul li:hover a {
+	display: block;
+	height: -84px;
+	width: 84px;
+	background-image: url('/class-24/img/social.png');
+	transition: .3s;
+}
+
+.social-icons ul .facebook a {
+	background-position: 0 0;
+}
+
+.social-icons ul .facebook a:hover {
+	background-position: 0 -84px;
+}
+
+.social-icons ul .twitter a {
+	background-position: 252px 0;
+}
+
+.social-icons ul .twitter a:hover {
+	background-position: 252px -84px;
+}
+
+.social-icons ul .google-plus a {
+	background-position: -252px 0;
+}
+.social-icons ul .google-plus a:hover {
+	background-position: -252px -84px;
+}
+
+.social-icons ul .linkedin a {
+	background-position: -336px 0;
+}
+.social-icons ul .linkedin a:hover {
+	background-position: -336px -84px;
 }
