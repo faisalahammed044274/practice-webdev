@@ -35,7 +35,7 @@ body {
 
 }
 
-.box:hover .hover  {
+.box:hover .hover {
     background-color: rgba(128, 115, 0, 0.6);
     opacity: 1;
     left: 0;
@@ -44,7 +44,7 @@ body {
 .box:hover .box-text {
     background-color: #035803e5;
     opacity: 1;
-    padding:30px;
+    padding: 30px;
     cursor: pointer;
 }
 
@@ -84,8 +84,9 @@ body {
 
 }
 
-.box2:hover .hover  {
-    background-color: rgba(128, 115, 0, 0.6);
+.box2:hover .hover {
+    /* background-color: rgba(128, 115, 0, 0.6); */
+    background-image: url('img/red-frame.jpg');
     opacity: 1;
     right: 0;
 }
@@ -93,6 +94,6 @@ body {
 .box2:hover .box-text {
     background-color: #5f3d0fe5;
     opacity: 1;
-    padding:30px;
+    padding: 30px;
     cursor: pointer;
 }
