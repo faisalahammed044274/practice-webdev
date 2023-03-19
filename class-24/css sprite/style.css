@@ -23,7 +23,7 @@ body {
 	height: -84px;
 	width: 84px;
 	background-image: url('/class-24/img/social.png');
-	transition: .3s;
+	transition: 1s;
 }
 
 .social-icons ul .facebook a {
