@@ -4,6 +4,95 @@ body {
 
 .box {
     width: 400px;
-    height: auto;
+    height: 400px;
     background-image: url('img/grass.jpg');
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    transition: 1s;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.box .hover {
+    background: rgba(81, 255, 232, 0.3);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    opacity: 1;
+    left: -100%;
+    transition: .8s;
+}
+
+.box .hover .box-text {
+    display: block;
+    color: #ffffff;
+    font-size: 34px;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    opacity: 0;
+
+}
+
+.box:hover .hover  {
+    background-color: rgba(128, 115, 0, 0.6);
+    opacity: 1;
+    left: 0;
+}
+
+.box:hover .box-text {
+    background-color: #035803e5;
+    opacity: 1;
+    padding:30px;
+    cursor: pointer;
+}
+
+
+/**** Box 2****/
+.box2 {
+    margin-left: 24px;
+    float: left;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    background-image: url('img/grass.jpg');
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    transition: 1s;
+    position: relative;
+}
+
+.box2 .hover {
+    background: rgba(81, 255, 232, 0.3);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    opacity: 1;
+    right: -100%;
+    transition: .8s;
+}
+
+.box2 .hover .box-text {
+    display: block;
+    color: #ffffff;
+    font-size: 34px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    opacity: 0;
+
+}
+
+.box2:hover .hover  {
+    background-color: rgba(128, 115, 0, 0.6);
+    opacity: 1;
+    right: 0;
+}
+
+.box2:hover .box-text {
+    background-color: #5f3d0fe5;
+    opacity: 1;
+    padding:30px;
+    cursor: pointer;
 }
