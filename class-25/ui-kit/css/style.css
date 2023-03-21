@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+}
+
+[class*=uk-width] {
+    background-color: pink;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
