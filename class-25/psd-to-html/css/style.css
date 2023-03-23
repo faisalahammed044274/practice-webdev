@@ -4,5 +4,6 @@ body {
 
 .social-icons ul li a {
     margin-right: 10px;
-
+    color: antiquewhite;
+    font-size: 18px;
 }
