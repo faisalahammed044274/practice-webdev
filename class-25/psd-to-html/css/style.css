@@ -153,4 +153,6 @@ img {
 .service-item img {
     width: 100px;
     height: 85px;
+    margin: 0 auto;
+    display: block;
 }
