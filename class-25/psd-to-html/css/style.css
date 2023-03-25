@@ -15,6 +15,11 @@ img {
     max-width: 100%;
 }
 
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
 .header-area {
     background: #87509c;
     overflow: hidden;
@@ -152,4 +157,86 @@ img {
     height: 85px;
     margin: 0 auto;
     display: block;
+}
+
+/* Team Area */
+
+.team-area {
+    background: #e7f1f8;
+    color: #3c4761;
+    text-align: center;
+    padding: 100px 0;
+    margin: 0;
+}
+
+.team-area hr {
+    border: 2px solid #c8d9e5;
+}
+
+.team {
+    overflow: hidden;
+}
+
+.team .team-member {
+    width: 22%;
+    float: left;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-right: 4%;
+}
+
+.team .team-member:nth-child(4n) {
+    margin-right: 0;
+}
+
+.team .team-member img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid #3c4761;
+}
+
+.team-member h3 {
+    color: #27283d;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.team-member h4 {
+    color: #30bae7;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.team-member p {
+    color: #3c4761;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.team-member .social-icons ul li {
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.team-member .social ul {
+    padding: 0;
+}
+
+.team-member .social-icons ul li a i {
+    color: #ffffff;
+    background-color: #bdd1df;
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
 }
