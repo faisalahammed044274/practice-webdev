@@ -149,3 +149,8 @@ img {
     overflow: hidden;
     margin: 0 1%;
 }
+
+.service-item img {
+    width: 100px;
+    height: 85px;
+}
