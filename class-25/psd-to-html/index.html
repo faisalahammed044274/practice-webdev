@@ -14,20 +14,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
-      integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <section class="header-area">
       <div class="container">
         <div class="header-top">
-          <div class="logo"><img src="images/logo.png" alt="CUDA" /></div>
+          <div class="logo">
+            <a href="#"><img src="images/logo.png" alt="CUDA" /></a>
+          </div>
           <nav class="header-menu">
             <ul>
               <li class="current"><a href="#">home</a></li>
@@ -40,14 +35,14 @@
         </div>
         <div class="header-action">
           <h1>
-            Hi there! We are the new kids on the block <br> and we build awesome
-            websites and mobile apps.
+            Hi there! We are the new kids on the block <br />
+            and we build awesome websites and mobile apps.
           </h1>
           <a href="#" class="button">work with us !</a>
         </div>
       </div>
     </section>
-    <section class="service-area">
+    <section class="services-area">
       <div class="container">
         <header class="section-header">
           <h2>SERVICES WE PROVIDE</h2>
@@ -57,8 +52,8 @@
             the globe to create awesome websites and applications.
           </p>
         </header>
-        <div class="services">
-          <article class="service-item">
+        <div class="services d-flex">
+          <article class="service-item col-3">
             <img src="images/flag.png" alt="flag" />
             <h3>Branding</h3>
             <p>
@@ -66,14 +61,14 @@
               nonummy nibh.
             </p>
           </article>
-          <article class="service-item">
+          <article class="service-item col-3">
             <img src="images/pencil.png" alt="pencil" />
             <h3>Design</h3>
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             </p>
           </article>
-          <article class="service-item">
+          <article class="service-item col-3">
             <img src="images/gears.png" alt="gear" />
             <h3>Development</h3>
             <p>
@@ -81,7 +76,7 @@
               praesentium.
             </p>
           </article>
-          <article class="service-item">
+          <article class="service-item col-3">
             <img src="images/rocket.png" alt="rocket-science" />
             <h3>Rocket Science</h3>
             <p>
@@ -390,12 +385,6 @@
     </section>
 
     <!-- Scripts -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
-      integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
     <script src="js/script.js"></script>
   </body>
 </html>
