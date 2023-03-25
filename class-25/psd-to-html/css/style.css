@@ -230,6 +230,11 @@ ul li {
     padding: 0;
 }
 
+.team-member .social-icons ul li:hover a i {
+    background-color: #30bae7;
+    color: #bdd1df;
+}
+
 .team-member .social-icons ul li a i {
     color: #ffffff;
     background-color: #bdd1df;
@@ -239,4 +244,5 @@ ul li {
     padding: 8px;
     border-radius: 50%;
     text-align: center;
+    transition: .3s;
 }
