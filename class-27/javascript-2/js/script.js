@@ -46,3 +46,7 @@ function mOver(obj) {
   function mOut(obj) {
     obj.innerHTML = "Mouse Over Me"
   }
+
+  function bomb(){
+    return ("Bombing it on click");
+  }
