@@ -1,10 +1,10 @@
 var rohim=20;
 
-var korim=10;
-console.log(rohim+korim);
-alert(rohim+korim);
-document.write('<br>');
-document.write('Both have '+ (rohim + korim) + ' Taka');
+// var korim=10;
+// console.log(rohim+korim);
+// alert(rohim+korim);
+// document.write('<br>');
+// document.write('Both have '+ (rohim + korim) + ' Taka');
 
 // var amr = {"profession":"Web Developer","age" : 30, "height" :5.6,"skills" : "Hibijibi"};
 
@@ -19,25 +19,25 @@ document.write('Both have '+ (rohim + korim) + ' Taka');
 // document.write("Amar Skills : " + amr['skills']);
 
 
-var content = "We are Learning Javascript, we are Learning PHP indeed";
-document.write('<br>')
-document.write(content + "</br>");
-document.write(content.length);
+// var content = "We are Learning Javascript, we are Learning PHP indeed";
+// document.write('<br>')
+// document.write(content + "</br>");
+// document.write(content.length);
 
-var indx = content.indexOf("Javascript");
-document.write('<br>')
-document.write(indx);
-var indx2 = content.lastIndexOf("indeed");
-console.log(indx2);
-alert(indx2);
+// var indx = content.indexOf("Javascript");
+// document.write('<br>')
+// document.write(indx);
+// var indx2 = content.lastIndexOf("indeed");
+// console.log(indx2);
+// alert(indx2);
 
-function ami(){
-    document.write('<br>')
-    alert('Welcome to JavaScript\'s World');
-    document.write('Welcome to JavaScript\'s World');
-}
+// function ami(){
+//     document.write('<br>')
+//     alert('Welcome to JavaScript\'s World');
+//     document.write('Welcome to JavaScript\'s World');
+// }
 
-ami();
+// ami();
 
 function mOver(obj) {
     obj.innerHTML = "Thank You"
@@ -47,9 +47,9 @@ function mOver(obj) {
     obj.innerHTML = "Mouse Over Me"
   }
 
-  function bomb(){
-    return ("Bombing it on click");
-  }
+//   function bomb(){
+//     return ("Bombing it on click");
+//   }
 
   document.getElementById('abc').style.color="red";
   document.getElementById('abc').style.backgroundColor="green";
@@ -57,3 +57,12 @@ function mOver(obj) {
   document.getElementById('abc').style.fontSize="34px";
   document.getElementById('abc').style.fontWeight="700";
   document.getElementById('abc').style.fontFamily="tahoma, sans-serif";
+
+  var result = 40,
+  passMark= 33;
+
+if(result < passMark){
+    console.log("Fail Korchos tor khbr ase");   
+}else{
+    console.log("Thik ase pass korchos,ektu porle result aro better hoite parto");
+}
