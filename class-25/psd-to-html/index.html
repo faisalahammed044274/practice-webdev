@@ -49,7 +49,8 @@
           <hr />
           <p>
             We are working with both individuals and businesses from all over
-            the globe <br> to create awesome websites and applications.
+            the globe <br />
+            to create awesome websites and applications.
           </p>
         </header>
         <div class="services d-flex">
@@ -65,23 +66,26 @@
             <img src="images/pencil.png" alt="pencil" />
             <h3>Design</h3>
             <p>
-              Sed ut perspiciatis unde <br> omnis iste natus error sit voluptatem
+              Sed ut perspiciatis unde <br />
+              omnis iste natus error sit voluptatem
             </p>
           </article>
           <article class="service-item col-3">
             <img src="images/gears.png" alt="gear" />
             <h3>Development</h3>
             <p>
-              At vero eos et accusamus et <br> iusto odio dignissimos qui <br> blanditiis
-              praesentium.
+              At vero eos et accusamus et <br />
+              iusto odio dignissimos qui <br />
+              blanditiis praesentium.
             </p>
           </article>
           <article class="service-item col-3">
             <img src="images/rocket.png" alt="rocket-science" />
             <h3>Rocket Science</h3>
             <p>
-              Et harum quidem rerum est <br> et expedita distinctio. Nam <br> libero
-              tempore.
+              Et harum quidem rerum est <br />
+              et expedita distinctio. Nam <br />
+              libero tempore.
             </p>
           </article>
         </div>
@@ -215,6 +219,7 @@
           <article class="skill-item">
             <div class="skill-circle">
               <h1>90%</h1>
+              <input type="text" value="75" class="rounded-skill" />
             </div>
             <h3>Web Design</h3>
           </article>
@@ -385,6 +390,12 @@
     </section>
 
     <!-- Scripts -->
+    <script src="js/jquery-3.6.4.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      $(".rounded-skill").knob({
+        },
+      );
+    </script>
   </body>
 </html>
