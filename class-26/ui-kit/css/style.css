@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    color: green;
+}
+
+.main-menu ul li {
+    background-color: rebeccapurple;
+    list-style: none;
+    padding: 0 30px;
+}
+
+.main-menu ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+    float: left;
+    margin: 30px;
+    background-color: rebeccapurple;
+    padding: 8px 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    background-color: greenyellow;
+    color: royalblue;
+    padding: 30px;
+    text-transform: uppercase;
+}
