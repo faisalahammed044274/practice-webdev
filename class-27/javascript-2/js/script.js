@@ -66,3 +66,14 @@ if(result < passMark){
 }else{
     console.log("Thik ase pass korchos,ektu porle result aro better hoite parto");
 }
+
+var result = prompt("result ki?");
+var passmark = 33;
+
+if(result >= 33 && result <= 100){
+    document.write('Pass krce..........');
+} else if(result < 0 || result > 100){
+    document.write('Invalid Result Input');
+} else{
+    document.write('Fail Marce..........');
+}
