@@ -1,9 +1,9 @@
 var rohim=20;
 
 var korim=10;
-
 console.log(rohim+korim);
 alert(rohim+korim);
+document.write('<br>');
 document.write('Both have '+ (rohim + korim) + ' Taka');
 
 // var amr = {"profession":"Web Developer","age" : 30, "height" :5.6,"skills" : "Hibijibi"};
@@ -50,3 +50,10 @@ function mOver(obj) {
   function bomb(){
     return ("Bombing it on click");
   }
+
+  document.getElementById('abc').style.color="red";
+  document.getElementById('abc').style.backgroundColor="green";
+  document.getElementById('abc').style.padding="10px";
+  document.getElementById('abc').style.fontSize="34px";
+  document.getElementById('abc').style.fontWeight="700";
+  document.getElementById('abc').style.fontFamily="tahoma, sans-serif";

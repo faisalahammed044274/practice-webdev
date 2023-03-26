@@ -5,5 +5,12 @@ body {
     color: #2e2a2a;
 }
 
+.my-btns {
+    display: flex;
+}
 
+.my-btns a {
+    color: red;
 
+    color: azure;
+}

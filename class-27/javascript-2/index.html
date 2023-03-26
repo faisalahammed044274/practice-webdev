@@ -19,33 +19,64 @@
         width: 120px;
         height: 20px;
         padding: 20px;
-        color: aliceblue;
+        display: block;
       "
     >
       Mouse Over Me
     </div>
 
-    <a
-      href="#"
-      onclick="alert(bomb())"
-      style="color: rebeccapurple; background: #d94a38; padding: 10px; margin-top:40px; float: left; overflow: hidden; margin-right: 5px; text-decoration: none; font-weight: 700"
-      >Alert Boom on click</a
-    >
+    <div class="my-btns">
+      <a
+        href="#"
+        onclick="alert(bomb())"
+        style="
+          background: #d94a38;
+          padding: 10px;
+          margin-top: 40px;
+          margin-right: 5px;
+          text-decoration: none;
+          font-weight: 700;
+          display: inline-block;
+        "
+        >Alert Boom on click</a
+      >
+      <br />
+      <a
+        href="#"
+        onclick="document.write(bomb())"
+        style="
+          background: #d94a38;
+          padding: 10px;
+          margin-top: 40px;
+          margin-right: 5px;
+          text-decoration: none;
+          font-weight: 700;
+          display: inline-block;
+        "
+        >Write Boom on click</a
+      >
+      <br />
+      <a
+        href="#"
+        onclick="console.log(bomb())"
+        style="
+          background: #d94a38;
+          padding: 10px;
+          margin-top: 40px;
+          margin-right: 5px;
+          text-decoration: none;
+          font-weight: 700;
+          display: inline-block;
+        "
+        >Console Boom on click</a
+      >
+    </div>
     <br />
-    <a
-      href="#"
-      onclick="document.write(bomb())"
-      style="color: rgb(51, 153, 59); background: #d94a38; padding: 10px; margin-top:40px; float: left; overflow: hidden; margin-right: 5px; text-decoration: none; font-weight: 700"
-      >Write Boom on click</a
-    >
+    <div id="abc">
+      <marquee behavior="" direction="rtl">ABC Limited</marquee>
+    </div>
     <br />
-    <a
-      href="#"
-      onclick="console.log(bomb())"
-      style="color: rgb(221, 200, 10); background: #d94a38; padding: 10px; margin-top:40px; float: left; overflow: hidden; margin-right: 5px; text-decoration: none; font-weight: 700"
-      >Console Boom on click</a
-    >
-    <br />
+    <hr />
     <script src="js/script.js"></script>
   </body>
 </html>
