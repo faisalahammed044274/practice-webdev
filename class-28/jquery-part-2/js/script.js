@@ -13,7 +13,13 @@ jQuery("h5").css('color','grey').css('background','yellow').css('padding','10px'
 
 jQuery(".para").addClass("myColor");
 
-jQuery(".para").click(
+// jQuery(".para").click(
+//     function(){
+//         jQuery(".heading3").toggle();
+//     }
+// );
+
+jQuery(".para").hover(
     function(){
         jQuery(".heading3").toggle();
     }
