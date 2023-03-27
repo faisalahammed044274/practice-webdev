@@ -1,0 +1,17 @@
+.myColor {
+    background-color: red;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    padding: 28px;
+    cursor: pointer;
+}
+
+.heading3 {
+    background-color: rgb(26, 77, 77);
+    color: rgb(236, 221, 84);
+    padding: 10px;
+}
+
+
