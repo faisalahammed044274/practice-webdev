@@ -9,7 +9,7 @@ something.allData= function(){
 }
 
 
-alert(something.allData());
+console.log(something.allData());
 
 function adsClose(){
     document.getElementById("advertisement").innerHTML="";
