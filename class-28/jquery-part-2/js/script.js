@@ -27,3 +27,8 @@ jQuery(document).ready(function(){
     );
 })
 
+jQuery(function(){
+        jQuery(".heading3").hide();
+    
+});
+
