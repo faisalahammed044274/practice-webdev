@@ -18,10 +18,12 @@ jQuery(".para").addClass("myColor");
 //         jQuery(".heading3").toggle();
 //     }
 // );
+jQuery(document).ready(function(){
 
-jQuery(".para").hover(
-    function(){
-        jQuery(".heading3").toggle();
-    }
-);
+    jQuery(".para").hover(
+        function(){
+            jQuery(".heading3").toggle();
+        }
+    );
+})
 
