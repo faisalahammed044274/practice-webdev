@@ -1,0 +1,23 @@
+#advertisement {
+    position: fixed;
+    top: 35%;
+    left: 40%;
+}
+
+#advertisement img {
+    height: 250px;
+    width: 380px;
+    border: 6px solid #ffd10c;
+    box-shadow: 3px 6px 8px lightslategrey;
+}
+
+#advertisement a {
+    font-size: large;
+    color: #000000;
+    font-weight: 700;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
