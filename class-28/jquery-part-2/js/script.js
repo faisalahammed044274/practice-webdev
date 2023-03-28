@@ -45,8 +45,14 @@ $(document).ready(function(){
 })
 
 jQuery(document).ready(function(){
-    jQuery(".box2").animate({'width' : '60%'}, 2000).animate({'width' : '20%'}, 3000).animate({'border-radius' : '60%'}, 1000);
-})
+    jQuery(".animationstart").click(function(){
+        jQuery(".box2").animate({'width' : '80%'}, 2000).animate({'width' : '20%'}, 3000).animate({'border-radius' : '60%'}, 1000);
+    });
+});
+
+jQuery(".stopme").click(function(){
+    jQuery(".box2").stop();
+});
 
 // Hide, Show, Toggle, Slide, Fade, and Animate. WOW!
 
@@ -58,4 +64,27 @@ jQuery(document).ready(function(){
 //     slideUp()
 //     slideToggle()
 
+
+// ==================================
+//  index 2 scripts
+// ==================================
+
+jQuery(document).ready(function(){
+   jQuery("#btn1").click(function(){
+    alert("Text:" + jQuery("#test").text());
+   });
+
+   jQuery("#btn2").click(function(){
+    alert("HTML: " + jQuery("#test").html());
+  });
+
+  var boxErHeight = $(".myBox").outerHeight(true);
+  var boxErWidth = $(".myBox").outerWidth(true);
+
+  alert(boxErHeight);
+  alert(boxErWidth);
+
+  jQuery(".father").parents(".son2").css('color','red');
+  jQuery(".son1").children(".grandfather").css('color','green');
+});
 
