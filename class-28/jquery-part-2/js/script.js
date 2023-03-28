@@ -32,3 +32,30 @@ jQuery(function(){
     
 });
 
+jQuery(document).ready(function(){
+    jQuery(".clickkoren").click(function(){
+        jQuery(".box").fadeToggle(2000);
+    });
+});
+
+$(document).ready(function(){
+    $(".clickkoren").hover(function(){
+        $(".box").slideUp(1500);
+    })
+})
+
+jQuery(document).ready(function(){
+    jQuery(".box2").animate({'width' : '60%'}, 2000).animate({'width' : '20%'}, 3000).animate({'border-radius' : '60%'}, 1000);
+})
+
+// Hide, Show, Toggle, Slide, Fade, and Animate. WOW!
+
+// fadeIn(), fadeOut(), fadeToggle(), fadeTo()
+
+// jQuery has the following slide methods:
+
+//     slideDown()
+//     slideUp()
+//     slideToggle()
+
+
