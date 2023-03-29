@@ -3,6 +3,7 @@ p{
     color: aliceblue;
     padding: 10px;
     font-size: 18px;
+    cursor: pointer;
 }
 .reset{
     padding: 8px 14px;
@@ -10,4 +11,10 @@ p{
     color: aliceblue;
     text-decoration: none;
     border-radius: 6px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: chartreuse;
 }
