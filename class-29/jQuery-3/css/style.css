@@ -11,10 +11,14 @@ p{
     color: aliceblue;
     text-decoration: none;
     border-radius: 6px;
+    position: fixed;
 }
 
 .box{
     height: 150px;
     width: 150px;
     background-color: chartreuse;
+    position: fixed;
+    top: 0;
+    right: 0;
 }

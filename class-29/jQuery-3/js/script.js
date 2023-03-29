@@ -6,6 +6,17 @@ jQuery(document).ready(function(){
             })
         });
     });
+    
+    jQuery(window).resize(function(){
+        var screenSize = jQuery(window).width();
+        jQuery(".box").text(screenSize);
+    });
 
-    jQuery(".box").html("<h1>Hello</h1>");
+jQuery(window).scroll(
+function(){
+    var uporerDurotto = jQuery(window).scrollTop();
+    jQuery(".box").text(uporerDurotto);
+
+});
+
 });
