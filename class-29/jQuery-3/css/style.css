@@ -1,0 +1,13 @@
+p{
+    background-color: cornflowerblue;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 18px;
+}
+.reset{
+    padding: 8px 14px;
+    background-color: brown;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 6px;
+}
