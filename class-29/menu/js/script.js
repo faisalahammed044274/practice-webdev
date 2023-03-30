@@ -19,11 +19,11 @@ jQuery(document).ready(function(){
 
     jQuery(".main-menu ul li").hover(
         function(){
-            jQuery(this).children("ul").show(200);
-        },
-        function(){
-            jQuery(this).children("ul").hide(200);
+            jQuery(this).children("ul").slideToggle(300);
         });
+        // function(){
+        //     jQuery(this).children("ul").hide();
+        // });
 
     jQuery(".main-menu ul ul").parent("li").children("a").append('&nbsp;&nbsp;<i class="fas fa-angle-down"></i>');
 

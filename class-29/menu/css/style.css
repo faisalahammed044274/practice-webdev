@@ -62,7 +62,7 @@ body {
     float: none;
 }
 
-.main-menu ul ul li:hover a{
+.main-menu ul ul li:hover a {
     background-color: mediumpurple;
     color: #ffffff;
 }
@@ -85,6 +85,16 @@ body {
 
     .main-menu .bar {
         display: block;
+    }
+
+    .main-menu ul ul {
+        position: inherit;
+        left: 20px;
+    }
+
+    .main-menu ul ul li:hover a {
+        background: transparent;
+        color: honeydew;
     }
 }
 
