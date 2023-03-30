@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: darkcyan;
+}
+
+.main-menu {
+    background: #585b8b;
+}
+
+.main-menu:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.main-menu ul {
+
+    list-style: none;
+    margin: 0;
+}
+
+.main-menu ul li {
+    float: left;
+}
+
+.main-menu ul li a, .main-menu .bar{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 20px;
+}
+
+.main-menu ul li:hover a,
+.main-menu ul .current a {
+    background: #d4f1ad;
+    color: #585b8b;
+}
+
+.main-menu .bar{
+    background-color: blueviolet;
+    display: none;
+}
+
+.main-menu i{
+    float: right;
+}
+
+
+
+@media all and (max-width:767px) {
+    .main-menu ul{
+        padding: 0;
+        display: none;
+    }
+
+    .main-menu ul li{
+        float: none;
+    }
+
+    .main-menu .bar{
+        display: block;
+    }
+}
+
+/* it's easy solution but we cannot use it we solve it using jquery */
+/* @media all and (max-width:767px) {
+    .main-menu ul {
+        display: block !important;
+    }
+} */
