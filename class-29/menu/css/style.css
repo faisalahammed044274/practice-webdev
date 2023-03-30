@@ -21,13 +21,15 @@ body {
 
 .main-menu ul li {
     float: left;
+    position: relative;
 }
 
-.main-menu ul li a, .main-menu .bar{
+.main-menu ul li a,
+.main-menu .bar {
     display: block;
     color: aliceblue;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding: 20px 20px;
 }
 
@@ -37,28 +39,51 @@ body {
     color: #585b8b;
 }
 
-.main-menu .bar{
+.main-menu .bar {
     background-color: blueviolet;
     display: none;
 }
 
-.main-menu i{
+.main-menu i {
     float: right;
 }
 
+/* Submenu Styles */
+.main-menu ul ul {
+    padding: 0;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 115px;
+}
 
+.main-menu ul ul li {
+    float: none;
+}
+
+.main-menu ul ul li:hover a{
+    background-color: mediumpurple;
+    color: #ffffff;
+}
+
+/* .main-menu ul li:hover ul {
+    display: block;
+} */
+
+/* Media Query */
 
 @media all and (max-width:767px) {
-    .main-menu ul{
+    .main-menu ul {
         padding: 0;
         display: none;
     }
 
-    .main-menu ul li{
+    .main-menu ul li {
         float: none;
     }
 
-    .main-menu .bar{
+    .main-menu .bar {
         display: block;
     }
 }
