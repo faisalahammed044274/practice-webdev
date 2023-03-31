@@ -1,80 +1,90 @@
 body {
-    margin: 0;
-    background-color: honeydew;
+  margin: 0;
+  background-color: honeydew;
 }
 
 .main-menu {
-    background: #585b8b;
+  background: #585b8b;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.logo img{
-    width: 100px;
-    height: auto;
+.logo img {
+  width: 100px;
+  height: auto;
 }
 
 .main-menu:after {
-    content: '';
-    clear: both;
-    display: block;
+  content: "";
+  clear: both;
+  display: block;
 }
 
 .main-menu ul {
-
-    list-style: none;
-    margin: 0;
+  list-style: none;
+  margin: 0;
 }
 
 .main-menu ul li {
-    float: left;
-    position: relative;
+  float: left;
+  position: relative;
 }
 
 .main-menu ul li a,
 .main-menu .bar {
-    display: block;
-    color: aliceblue;
-    text-decoration: none;
-    text-transform: capitalize;
-    padding: 20px 20px;
+  display: block;
+  color: aliceblue;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 20px 20px;
 }
 
 .main-menu ul li:hover a,
 .main-menu ul .current a {
-    background: #d4f1ad;
-    color: #585b8b;
+  background: #d4f1ad;
+  color: #585b8b;
 }
 
 .main-menu .bar {
-    background-color: blueviolet;
-    display: none;
+  background-color: blueviolet;
+  display: none;
 }
 
 .main-menu i {
-    float: right;
+  float: right;
 }
 
 /* Submenu Styles */
 .main-menu ul ul {
-    padding: 0;
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    min-width: 115px;
+  padding: 0;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  min-width: 115px;
 }
 
 .main-menu ul ul li {
-    float: none;
+  float: none;
 }
 
 .main-menu ul ul li:hover a {
-    background-color: mediumpurple;
-    color: #ffffff;
+  background-color: mediumpurple;
+  color: #ffffff;
+}
+
+.scrollUpArrow {
+  background: #eeb926;
+  padding: 10px 15px;
+  font-size: 24px;
+  position: sticky;
+  float: right;
+  color: azure;
+  right: 15px;
+  bottom: 0;
 }
 
 /* .main-menu ul li:hover ul {
@@ -83,29 +93,29 @@ body {
 
 /* Media Query */
 
-@media all and (max-width:767px) {
-    .main-menu ul {
-        padding: 0;
-        display: none;
-    }
+@media all and (max-width: 767px) {
+  .main-menu ul {
+    padding: 0;
+    display: none;
+  }
 
-    .main-menu ul li {
-        float: none;
-    }
+  .main-menu ul li {
+    float: none;
+  }
 
-    .main-menu .bar {
-        display: block;
-    }
+  .main-menu .bar {
+    display: block;
+  }
 
-    .main-menu ul ul {
-        position: inherit;
-        left: 20px;
-    }
+  .main-menu ul ul {
+    position: inherit;
+    left: 20px;
+  }
 
-    .main-menu ul ul li:hover a {
-        background: transparent;
-        color: honeydew;
-    }
+  .main-menu ul ul li:hover a {
+    background: transparent;
+    color: honeydew;
+  }
 }
 
 /* it's easy solution but we cannot use it we solve it using jquery */
