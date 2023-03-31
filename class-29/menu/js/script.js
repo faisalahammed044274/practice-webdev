@@ -28,4 +28,18 @@ jQuery(document).ready(function(){
     jQuery(".main-menu ul ul").parent("li").children("a").append('&nbsp;&nbsp;<i class="fas fa-angle-down"></i>');
 
 
+    jQuery(window).scroll(function(){
+
+var utd = jQuery(window).scrollTop();
+
+if (utd>200){
+    jQuery('p').show();
+} else{
+jQuery('p').removeAttr('style');
+}
+    });
+
+
+    var headerHeight = jQuery(".header-area").OuterHeight();
+
 });

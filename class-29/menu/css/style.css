@@ -1,10 +1,20 @@
 body {
     margin: 0;
-    background-color: darkcyan;
+    background-color: honeydew;
 }
 
 .main-menu {
     background: #585b8b;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
 }
 
 .main-menu:after {
