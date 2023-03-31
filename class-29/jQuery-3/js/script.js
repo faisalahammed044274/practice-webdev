@@ -19,4 +19,9 @@ function(){
 
 });
 
+
+jQuery(".scrollUpArrow").click(function() {
+    jQuery("html").animate({ 'scrollTop': '1450px' }, 2000);
+  });
+
 });

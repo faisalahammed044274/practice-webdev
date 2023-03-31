@@ -1,11 +1,12 @@
-p{
+p {
     background-color: cornflowerblue;
     color: aliceblue;
     padding: 10px;
     font-size: 18px;
     cursor: pointer;
 }
-.reset{
+
+.reset {
     padding: 8px 14px;
     background-color: brown;
     color: aliceblue;
@@ -14,11 +15,22 @@ p{
     position: fixed;
 }
 
-.box{
+.box {
     height: 150px;
     width: 150px;
     background-color: chartreuse;
     position: fixed;
     top: 0;
     right: 0;
+}
+
+.scrollUpArrow {
+    background: red;
+    padding: 10px 15px;
+    font-size: 24px;
+    position: sticky;
+    float: right;
+    color: azure;
+    right: 15px;
+    bottom: 0;
 }
