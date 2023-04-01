@@ -3,6 +3,15 @@ body {
   background-color: honeydew;
 }
 
+
+.fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+}
+
 .main-menu {
   background: #585b8b;
 }

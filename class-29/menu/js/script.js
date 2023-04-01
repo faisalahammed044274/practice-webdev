@@ -34,12 +34,18 @@ jQuery(document).ready(function () {
   jQuery(window).scroll(function () {
     var utd = jQuery(window).scrollTop();
 
-    if (utd > 300) {
+    if (utd > 200) {
+      jQuery(".main-menu").addClass("fixed");
+    } else {
+      jQuery(".main-menu").removeClass("fixed");
+    }
+
+    if (utd >= 300) {
       jQuery(".scrollUpArrow").fadeIn();
     } else {
       jQuery(".scrollUpArrow").fadeOut();
     }
   });
 
-  var headerHeight = jQuery(".header-area").OuterHeight();
+  // var headerHeight = jQuery(".header-area").OuterHeight();
 });
