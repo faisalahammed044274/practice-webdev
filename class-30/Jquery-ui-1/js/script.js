@@ -14,6 +14,8 @@ jQuery(document).ready(function () {
 
 jQuery(document).ready(function () {
   jQuery(".box-2").resizable({ animate: true });
-
   jQuery(".content").selectable();
+  jQuery("#sortable").sortable();
+
+
 });
