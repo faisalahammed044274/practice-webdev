@@ -337,7 +337,13 @@ hr {
     border-right: 0;
 }
 
-.footer-bottom {
-    background-color: red;
-    
+.copyright {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer-bottom ul li {
+    float: left;
+    list-style: none;
+    margin-right: 17px;
 }
