@@ -1,12 +1,13 @@
-.box{
+.box {
     width: 200px;
     height: 200px;
     background-color: crimson;
-    box-shadow: 14px 17px 1px lightgray;
+    float: left;
 }
 
-.big-box{
-    width: 600px;
-    height: 600px;
-    background-color: darkseagreen;
+.big-box {
+    width: 400px;
+    height: 400px;
+    background-color: lightgreen;
+    overflow: hidden;
 }
