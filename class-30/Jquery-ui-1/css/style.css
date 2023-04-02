@@ -11,3 +11,11 @@
     background-color: lightgreen;
     overflow: hidden;
 }
+
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(167, 91, 106);
+    float: left;
+}
