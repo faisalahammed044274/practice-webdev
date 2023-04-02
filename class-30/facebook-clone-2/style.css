@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header-area {
+    background-color: #385694;
+    box-shadow: 2px 2px 8px #42464f;
+    padding: 10px 0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.header-area .logo-area {
+    width: 30%;
+    float: left;
+}
+
+.header-area .logo-area img {
+    width: 60%;
+}
+
+.header-area .login-area {
+    overflow: hidden;
+    width: 70%;
+}
+
+.login-area label,
+.login-area input {
+    display: block;
+}
+
+.login-area label {
+    font-size: 12px;
+}
+
+.login-area input {
+    margin: 5px 0;
+    padding: 3px;
+    border: 1px solid;
+}
+
+.login-area input[type="checkbox"] {
+    float: left;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.login-area .username-area {
+    float: left;
+    margin-right: 15px;
+}
+
+.login-area .password-area {
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.login-area a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login-area a:hover {
+    color: #5c5c5c;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-area .submit-area {
+    overflow: hidden;
+    float: right;
+}
+
+.login-area form {
+    float: right;
+}
+
+.submit-area button {
+    padding: 2px 8px;
+    margin-top: 18px;
+    background: #385694;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 500;
+    border: 1px solid #1a3468;
+}
+
+/***
+ ----Main Area Style----
+ ***/
+
+.signup-area a {
+    color: #3b5998;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.signup-area {
+    background: linear-gradient(#ffffff, #d3d8e8);
+    font-family: Tahoma, sans-serif;
+    color: #666666;
+}
+
+.left-area {
+    width: 55%;
+    margin-right: 10%;
+    float: left;
+}
+
+.right-area {
+    width: 35%;
+    overflow: hidden;
+}
+
+.right-area h1 {
+    margin-top: 30px;
+}
+
+.mobile-image {
+    float: left;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+.mobile-text {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.signup-area h3 {
+    color: #233558;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.signup-area p {
+    font-size: 12px;
+    color: #9197AD;
+    margin: 0;
+}
+
+.mobile-text a {
+    border: 2px solid #9197AD;
+    color: #233558;
+    padding-bottom: 10px 5px;
+    text-decoration: none;
+    margin-top: 30px;
+    float: right;
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+}
+
+.mobile-area {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.mobile {
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 320px;
+}
+
+
+/* right area */
+
+.right-area h1 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.right-area h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
+
+.signup-area form {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.signup-area input[type="text"],
+.signup-area input[type="password"] {
+    display: block;
+    padding: 10px 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #9197AD;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.signup-area input:focus-visible {
+    outline: 2px solid #dc143c;
+    border: 0;
+}
+
+.right-area form>input[type="text"]:nth-child(1),
+.right-area form>input[type="text"]:nth-child(2) {
+    width: 48%;
+    overflow: hidden;
+}
+
+.right-area form>input[type="text"]:nth-child(1) {
+    float: left;
+    margin-right: 4%;
+}
+
+.right-area form>input[type="text"]:nth-child(2) {
+    overflow: hidden;
+    float: left;
+}
+
+.birthday-select {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.birthday-select select {
+    padding: 6px 3px;
+    border: 1px solid #385694;
+    float: left;
+    margin-right: 12px;
+}
+
+/* .birthday-select select:last-child{
+margin-right: 30px;
+} */
+
+.birthday-select a {
+    font-size: 12px;
+    line-height: 14px;
+    color: #3b5998;
+    display: block;
+}
+
+.gender-select {
+    margin-bottom: 10px;
+}
+
+.signup-area p {
+    margin-bottom: 15px;
+}
+
+.signup-area input[type="submit"] {
+    background: linear-gradient(#83c46c, #588944);
+    padding: 10px 60px;
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.signup-area input[type="submit"]:hover {
+    background: linear-gradient(#588944, #83c46c);
+}
+
+.signup-area hr {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #666666;
+}
+
+.signup-area .page-create {
+    padding-bottom: 40px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #666666;
+}
+
+.signup-area .page-create a {
+    font-size: 13px;
+}
+
+.signup-area .bday {
+    margin-bottom: 10px;
+}
+
+/***
+ ----Footer Area Style----
+ ***/
+.footer-area {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    background: #e1e3e7;
+    padding-left: 60px;
+}
+
+.footer-area ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-area ul li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-area hr {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    width: 100%;
+
+}
+
+.footer-top,
+.footer-bottom {
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.footer-top ul li:last-child a {
+    background: #EDF0F5;
+    padding: 2px 8px;
+}
+
+.footer-top ul li:last-child a:hover {
+    background: #c6cedd;
+    padding: 2px 8px;
+    text-decoration: none;
+}
+
+.footer-bottom ul li {
+    width: 10%;
+    color: #3b5998;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #e1e3e7;
+    color: #3b5998;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.copyright a {
+    color: #3b5998;
+    font-size: 12px;
+    text-decoration: none;
+    ;
+}
