@@ -1,3 +1,3 @@
 jQuery(document).ready(function () {
-  jQuery(".box").draggable();
+  jQuery(".box").draggable({ cursor: "pointer", containment: ".big-box" });
 });

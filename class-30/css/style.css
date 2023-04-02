@@ -4,3 +4,9 @@
     background-color: crimson;
     box-shadow: 14px 17px 1px lightgray;
 }
+
+.big-box{
+    width: 600px;
+    height: 600px;
+    background-color: darkseagreen;
+}
