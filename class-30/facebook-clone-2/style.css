@@ -403,7 +403,7 @@ margin-right: 30px;
 }
 
 .small-box {
-    background-color: #dc143c;
+    background-color: #eeff00;
     height: 100px;
     width: 100px;
     position: absolute;
@@ -411,4 +411,13 @@ margin-right: 30px;
     top: 10%;
     z-index: 2;
 
+}
+.red-box {
+    background-color: #dc143c;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    z-index: 2;
 }
