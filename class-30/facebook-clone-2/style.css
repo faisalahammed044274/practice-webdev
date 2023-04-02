@@ -374,3 +374,41 @@ margin-right: 30px;
     text-decoration: none;
     ;
 }
+
+.overlay {
+    position: fixed;
+    background: #3b5998;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.overlay h1 {
+    color: #EDF0F5;
+    margin-bottom: 30px;
+}
+
+.big-box {
+    background-color: greenyellow;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    right: 10%;
+    top: 10%;
+    z-index: 1;
+}
+
+.small-box {
+    background-color: #dc143c;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    z-index: 2;
+
+}
