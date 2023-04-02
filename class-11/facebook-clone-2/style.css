@@ -313,6 +313,7 @@ margin-right: 30px;
     font-family: Tahoma, sans-serif;
     font-size: 12px;
     background: #e1e3e7;
+    padding-left: 60px;
 }
 
 .footer-area ul {
@@ -324,6 +325,7 @@ margin-right: 30px;
 .footer-area ul li {
     float: left;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .footer-area hr {
