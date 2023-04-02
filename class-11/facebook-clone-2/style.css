@@ -312,6 +312,7 @@ margin-right: 30px;
 .footer-area {
     font-family: Tahoma, sans-serif;
     font-size: 12px;
+    background: #e1e3e7;
 }
 
 .footer-area ul {
@@ -331,7 +332,8 @@ margin-right: 30px;
     border-right: 0;
     border-bottom: 1px solid #ccc;
     align-items: center;
-    width:100%;
+    width: 100%;
+
 }
 
 .footer-top,
@@ -358,7 +360,7 @@ margin-right: 30px;
 
 .copyright {
     text-align: center;
-    background-color:#e1e3e7 ;
+    background-color: #e1e3e7;
     color: #3b5998;
     padding: 10px 0;
     font-size: 12px;
@@ -367,5 +369,6 @@ margin-right: 30px;
 .copyright a {
     color: #3b5998;
     font-size: 12px;
-    text-decoration: none;                                              ;
+    text-decoration: none;
+    ;
 }
