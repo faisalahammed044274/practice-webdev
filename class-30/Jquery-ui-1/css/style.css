@@ -19,3 +19,12 @@
     background-color: rgb(167, 91, 106);
     float: left;
 }
+
+.content p {
+    padding: 10px;
+}
+
+.content .ui-selected {
+    background-color: red;
+    color: aliceblue;
+}
