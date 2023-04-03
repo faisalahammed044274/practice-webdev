@@ -57,3 +57,16 @@
     }
     
 /* Custom CSS for Date Picker */
+
+/* Custom CSS for Dialog */
+.dialog-content .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+	border: 1px solid transparent;
+	background: transparent;
+	font-weight: normal;
+	color: #f40000;
+}
+
+.dialog-content #ui-id-15 {
+	background: lightblue;
+}
+/* Custom CSS for Dialog */
