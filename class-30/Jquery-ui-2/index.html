@@ -55,18 +55,30 @@
       <input id="tags" size="50" />
     </div>
 
-    <hr>
+    <hr />
     <h2>Radio Group</h2>
-<fieldset>
-  <legend>Select a Location: </legend>
-  <label for="radio-1">New York</label>
-  <input type="radio" name="radio-1" id="radio-1">
-  <label for="radio-2">Paris</label>
-  <input type="radio" name="radio-1" id="radio-2">
-  <label for="radio-3">London</label>
-  <input type="radio" name="radio-1" id="radio-3">
-</fieldset>
-
+    <fieldset>
+      <legend>Select a Location:</legend>
+      <label for="radio-1">New York</label>
+      <input type="radio" name="radio-1" id="radio-1" />
+      <label for="radio-2">Paris</label>
+      <input type="radio" name="radio-1" id="radio-2" />
+      <label for="radio-3">London</label>
+      <input type="radio" name="radio-1" id="radio-3" />
+    </fieldset>
+    <hr />
+    <p>Date: <input type="text" id="pickyourdate" /></p>
+    <p>Format options:<br>
+      <select id="format">
+        <option value="mm/dd/yy">Default - mm/dd/yy</option>
+        <option value="yy-mm-dd">ISO 8601 - yy-mm-dd</option>
+        <option value="d M, y">Short - d M, y</option>
+        <option value="d MM, y">Medium - d MM, y</option>
+        <option value="DD, d MM, yy">Full - DD, d MM, yy</option>
+        <option value="&apos;day&apos; d &apos;of&apos; MM &apos;in the year&apos; yy">With text - &apos;day&apos; d &apos;of&apos; MM &apos;in the year&apos; yy</option>
+      </select>
+    </p>
+    <hr />
 
     <script src="js/jquery-3.6.4.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>

@@ -95,4 +95,16 @@ jQuery(document).ready(function () {
       icon: false,
     });
   });
+
+  // $( function() {
+  //   $( "#pickyourdate" ).datepicker();
+  // } );
+
+  $( function() {
+    $( "#pickyourdate" ).datepicker();
+    $( "#format" ).on( "change", function() {
+      $( "#pickyourdate" ).datepicker( "option", "dateFormat", $( this ).val() );
+    });
+  } );
+
 });
