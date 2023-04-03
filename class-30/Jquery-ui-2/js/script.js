@@ -109,11 +109,17 @@ jQuery(document).ready(function () {
       jQuery("#pickyourdate").datepicker("option", "dateFormat", $(this).val());
     });
 
-    jQuery('.popupopen').click(function(){
-      jQuery('.popupbox').dialog();
+    jQuery(".popupopen").click(function () {
+      jQuery(".popupbox").dialog({
+        show: {
+          effect: "explode",
+          duration: 2000,
+        },
+        hide: {
+          effect: "blind",
+          duration: 2000,
+        },
+      });
     });
-
   });
-
-
 });

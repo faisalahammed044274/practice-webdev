@@ -69,4 +69,27 @@
 .dialog-content #ui-id-15 {
 	background: lightblue;
 }
+
+.popupbox element {
+	position: absolute;
+	height: auto;
+	width: 400px;
+	top: 428.033px;
+	left: 470px;
+}
+
+.ui-widget-header {
+    color: #7d3838;
+    }
+    .ui-draggable .ui-dialog-titlebar {
+    cursor:e-resize;
+    }
+
+    .ui-widget-content {
+        border: 1px solid #ddd;
+        background: #c9fff7;
+        color: #333;
+        color: #06b500;
+    }
+
 /* Custom CSS for Dialog */
