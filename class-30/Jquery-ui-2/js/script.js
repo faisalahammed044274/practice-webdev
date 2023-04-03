@@ -100,11 +100,16 @@ jQuery(document).ready(function () {
   //   $( "#pickyourdate" ).datepicker();
   // } );
 
-  $( function() {
-    $( "#pickyourdate" ).datepicker();
-    $( "#format" ).on( "change", function() {
-      $( "#pickyourdate" ).datepicker( "option", "dateFormat", $( this ).val() );
+  jQuery(function () {
+    jQuery("#pickyourdate").datepicker({
+      changeMonth: true,
+      changeYear: true,
     });
-  } );
+    jQuery("#format").on("change", function () {
+      jQuery("#pickyourdate").datepicker("option", "dateFormat", $(this).val());
+    });
+
+  });
+
 
 });
