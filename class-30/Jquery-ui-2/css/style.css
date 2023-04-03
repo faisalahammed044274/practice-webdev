@@ -108,3 +108,18 @@ a.ui-button:active,
 }
 
 /* Custom CSS for MENU */
+
+/* Custom CSS for Progress Bar */
+.progress .ui-widget-header {
+    border: 1px solid #be9696;
+    background: #f00;
+    color: #333;
+    font-weight: bold;
+}
+
+.progress .ui-widget-content {
+    background: #c9fff7;
+    background: #55958b;
+    }
+
+/* Custom CSS for Progress Bar */
