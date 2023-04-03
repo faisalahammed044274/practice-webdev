@@ -1,8 +1,6 @@
 jQuery(document).ready(function () {
   jQuery(".content").accordion();
 
-
-
   var avilableTags1 = [
     "async",
     "bootstrap",
@@ -90,5 +88,11 @@ jQuery(document).ready(function () {
           return false;
         },
       });
+  });
+
+  $(function () {
+    $("input[type='radio']").checkboxradio({
+      icon: false,
+    });
   });
 });
