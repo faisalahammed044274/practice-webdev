@@ -109,6 +109,10 @@ jQuery(document).ready(function () {
       jQuery("#pickyourdate").datepicker("option", "dateFormat", $(this).val());
     });
 
+    jQuery('.popupopen').click(function(){
+      jQuery('.popupbox').dialog();
+    });
+
   });
 
 
