@@ -27,4 +27,5 @@ jQuery(document).ready(function () {
       );
     },
   });
+  jQuery(".rangeText").text("price range :  1000 tk - 10000 tk");
 });
