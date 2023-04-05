@@ -12,12 +12,7 @@ $(document).ready(function () {
     'margin': 10,
     'responsiveClass': true,
     'merge': true,
+    'merge-fit': true,
   });
 
-  $(".play").on("click", function () {
-    owl.trigger("play.owl.autoplay", [1000]);
-  });
-  $(".stop").on("click", function () {
-    owl.trigger("stop.owl.autoplay");
-  });
 });
