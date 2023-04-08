@@ -1,0 +1,10 @@
+1. find out which plugin you exactly need
+2. see how it will look after we setup 
+3. download the files of the plugin 
+4. keep the js files in the js folder
+5. keep the css files in the css folder
+6. link up the css and js files in our html file 
+7. find out the html markup to use in the documentation 
+8. use that markup to use the plugin
+9. use the new method of the plugin in the custom js file and apply it to the main class of the markup
+10. now style up your markups 
